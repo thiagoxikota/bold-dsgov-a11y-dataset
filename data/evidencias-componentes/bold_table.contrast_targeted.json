@@ -1,0 +1,49 @@
+{
+  "target": {
+    "id": "bold_table",
+    "url": "https://bold.bridge.ufsc.br/pt/components/table"
+  },
+  "summary": {
+    "count": 5,
+    "below45": 5,
+    "noRatio": 0,
+    "notFound": 0
+  },
+  "items": [
+    {
+      "selector": ".comment.token:nth-child(39)",
+      "text": "// Naive sorting for example purposes:",
+      "color": "rgb(112, 128, 144)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 3.76
+    },
+    {
+      "selector": ".comment.token:nth-child(174)",
+      "text": "// Fake data to populate table",
+      "color": "rgb(112, 128, 144)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 3.76
+    },
+    {
+      "selector": ".comment.token:nth-child(120)",
+      "text": "// Naive sorting for example purposes:",
+      "color": "rgb(112, 128, 144)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 3.76
+    },
+    {
+      "selector": ".comment.token:nth-child(163)",
+      "text": "// Naive pagination for example purposes:",
+      "color": "rgb(112, 128, 144)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 3.76
+    },
+    {
+      "selector": ".comment.token:nth-child(294)",
+      "text": "// Fake data to populate table",
+      "color": "rgb(112, 128, 144)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 3.76
+    }
+  ]
+}

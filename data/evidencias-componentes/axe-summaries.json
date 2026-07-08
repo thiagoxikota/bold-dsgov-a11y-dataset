@@ -1,0 +1,319 @@
+[
+  {
+    "id": "bold_button",
+    "url": "https://bold.bridge.ufsc.br/pt/components/button",
+    "ds": "Bold",
+    "comp": "button",
+    "structural": {
+      "lang": "pt",
+      "h1Count": 1,
+      "landmarks": {
+        "header": true,
+        "nav": true,
+        "main": true,
+        "footer": true
+      },
+      "hasSkipLink": true
+    },
+    "axe": {
+      "total": 5,
+      "byImpact": {
+        "minor": 0,
+        "moderate": 0,
+        "serious": 5,
+        "critical": 0
+      },
+      "cats": {
+        "contrast": 5,
+        "label": 0,
+        "aria": 0,
+        "landmark": 0,
+        "headings": 0,
+        "linkname": 0
+      },
+      "byId": {
+        "color-contrast": 5
+      }
+    }
+  },
+  {
+    "id": "bold_table",
+    "url": "https://bold.bridge.ufsc.br/pt/components/table",
+    "ds": "Bold",
+    "comp": "table",
+    "structural": {
+      "lang": "pt",
+      "h1Count": 1,
+      "landmarks": {
+        "header": true,
+        "nav": true,
+        "main": true,
+        "footer": true
+      },
+      "hasSkipLink": true
+    },
+    "axe": {
+      "total": 24,
+      "byImpact": {
+        "minor": 0,
+        "moderate": 0,
+        "serious": 5,
+        "critical": 19
+      },
+      "cats": {
+        "contrast": 5,
+        "label": 0,
+        "aria": 0,
+        "landmark": 0,
+        "headings": 0,
+        "linkname": 0
+      },
+      "byId": {
+        "button-name": 19,
+        "color-contrast": 5
+      }
+    }
+  },
+  {
+    "id": "bold_alert",
+    "url": "https://bold.bridge.ufsc.br/pt/components/alert",
+    "ds": "Bold",
+    "comp": "alert",
+    "structural": {
+      "lang": "pt",
+      "h1Count": 1,
+      "landmarks": {
+        "header": true,
+        "nav": true,
+        "main": true,
+        "footer": true
+      },
+      "hasSkipLink": true
+    },
+    "axe": {
+      "total": 4,
+      "byImpact": {
+        "minor": 0,
+        "moderate": 0,
+        "serious": 4,
+        "critical": 0
+      },
+      "cats": {
+        "contrast": 4,
+        "label": 0,
+        "aria": 0,
+        "landmark": 0,
+        "headings": 0,
+        "linkname": 0
+      },
+      "byId": {
+        "color-contrast": 4
+      }
+    }
+  },
+  {
+    "id": "bold_form",
+    "url": "https://bold.bridge.ufsc.br/pt/components/form",
+    "ds": "Bold",
+    "comp": "form",
+    "structural": {
+      "lang": "pt",
+      "h1Count": 1,
+      "landmarks": {
+        "header": true,
+        "nav": true,
+        "main": true,
+        "footer": true
+      },
+      "hasSkipLink": true
+    },
+    "axe": {
+      "total": 10,
+      "byImpact": {
+        "minor": 0,
+        "moderate": 0,
+        "serious": 10,
+        "critical": 0
+      },
+      "cats": {
+        "contrast": 10,
+        "label": 0,
+        "aria": 0,
+        "landmark": 0,
+        "headings": 0,
+        "linkname": 0
+      },
+      "byId": {
+        "color-contrast": 10
+      }
+    }
+  },
+  {
+    "id": "dsgov_button",
+    "url": "https://www.gov.br/ds/components/button?tab=desenvolvedor",
+    "ds": "DSGov",
+    "comp": "button",
+    "structural": {
+      "lang": "pt-BR",
+      "h1Count": 2,
+      "landmarks": {
+        "header": true,
+        "nav": true,
+        "main": true,
+        "footer": true
+      },
+      "hasSkipLink": true
+    },
+    "axe": {
+      "total": 94,
+      "byImpact": {
+        "minor": 0,
+        "moderate": 0,
+        "serious": 54,
+        "critical": 40
+      },
+      "cats": {
+        "contrast": 15,
+        "label": 0,
+        "aria": 40,
+        "landmark": 0,
+        "headings": 0,
+        "linkname": 0
+      },
+      "byId": {
+        "aria-allowed-attr": 1,
+        "aria-required-children": 2,
+        "aria-required-parent": 37,
+        "color-contrast": 15,
+        "link-in-text-block": 2,
+        "listitem": 37
+      }
+    }
+  },
+  {
+    "id": "dsgov_table",
+    "url": "https://www.gov.br/ds/components/table?tab=desenvolvedor",
+    "ds": "DSGov",
+    "comp": "table",
+    "structural": {
+      "lang": "pt-BR",
+      "h1Count": 2,
+      "landmarks": {
+        "header": true,
+        "nav": true,
+        "main": true,
+        "footer": true
+      },
+      "hasSkipLink": true
+    },
+    "axe": {
+      "total": 102,
+      "byImpact": {
+        "minor": 0,
+        "moderate": 0,
+        "serious": 62,
+        "critical": 40
+      },
+      "cats": {
+        "contrast": 23,
+        "label": 0,
+        "aria": 40,
+        "landmark": 0,
+        "headings": 0,
+        "linkname": 0
+      },
+      "byId": {
+        "aria-allowed-attr": 1,
+        "aria-required-children": 2,
+        "aria-required-parent": 37,
+        "color-contrast": 23,
+        "link-in-text-block": 2,
+        "listitem": 37
+      }
+    }
+  },
+  {
+    "id": "dsgov_message",
+    "url": "https://www.gov.br/ds/components/message?tab=desenvolvedor",
+    "ds": "DSGov",
+    "comp": "message",
+    "structural": {
+      "lang": "pt-BR",
+      "h1Count": 2,
+      "landmarks": {
+        "header": true,
+        "nav": true,
+        "main": true,
+        "footer": true
+      },
+      "hasSkipLink": true
+    },
+    "axe": {
+      "total": 107,
+      "byImpact": {
+        "minor": 0,
+        "moderate": 0,
+        "serious": 67,
+        "critical": 40
+      },
+      "cats": {
+        "contrast": 28,
+        "label": 0,
+        "aria": 40,
+        "landmark": 0,
+        "headings": 0,
+        "linkname": 0
+      },
+      "byId": {
+        "aria-allowed-attr": 1,
+        "aria-required-children": 2,
+        "aria-required-parent": 37,
+        "color-contrast": 28,
+        "link-in-text-block": 2,
+        "listitem": 37
+      }
+    }
+  },
+  {
+    "id": "dsgov_input",
+    "url": "https://www.gov.br/ds/components/input?tab=desenvolvedor",
+    "ds": "DSGov",
+    "comp": "input",
+    "structural": {
+      "lang": "pt-BR",
+      "h1Count": 2,
+      "landmarks": {
+        "header": true,
+        "nav": true,
+        "main": true,
+        "footer": true
+      },
+      "hasSkipLink": true
+    },
+    "axe": {
+      "total": 105,
+      "byImpact": {
+        "minor": 0,
+        "moderate": 0,
+        "serious": 65,
+        "critical": 40
+      },
+      "cats": {
+        "contrast": 26,
+        "label": 0,
+        "aria": 40,
+        "landmark": 0,
+        "headings": 0,
+        "linkname": 0
+      },
+      "byId": {
+        "aria-allowed-attr": 1,
+        "aria-required-children": 2,
+        "aria-required-parent": 37,
+        "color-contrast": 26,
+        "link-in-text-block": 2,
+        "listitem": 37
+      }
+    }
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "target": {
+    "id": "bold_alert",
+    "url": "https://bold.bridge.ufsc.br/pt/components/alert"
+  },
+  "summary": {
+    "count": 4,
+    "below45": 4,
+    "noRatio": 0,
+    "notFound": 0
+  },
+  "items": [
+    {
+      "selector": ".tag.token:nth-child(19) > .script.language-javascript.token",
+      "text": "={console.log}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(23) > .script.language-javascript.token",
+      "text": "={console.log}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(27) > .script.language-javascript.token",
+      "text": "={console.log}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(31) > .script.language-javascript.token",
+      "text": "={console.log}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    }
+  ]
+}

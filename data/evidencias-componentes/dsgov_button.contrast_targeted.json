@@ -1,0 +1,119 @@
+{
+  "target": {
+    "id": "dsgov_button",
+    "url": "https://www.gov.br/ds/components/button?tab=desenvolvedor"
+  },
+  "summary": {
+    "count": 15,
+    "below45": 15,
+    "noRatio": 0,
+    "notFound": 0
+  },
+  "items": [
+    {
+      "selector": ".selector.token:nth-child(1)",
+      "text": ".br-button",
+      "color": "rgb(102, 153, 0)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.08
+    },
+    {
+      "selector": ".function.token:nth-child(20)",
+      "text": "var",
+      "color": "rgb(221, 74, 104)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.59
+    },
+    {
+      "selector": ".function.token:nth-child(35)",
+      "text": "var",
+      "color": "rgb(221, 74, 104)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.59
+    },
+    {
+      "selector": ".function.token:nth-child(41)",
+      "text": "var",
+      "color": "rgb(221, 74, 104)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.59
+    },
+    {
+      "selector": ".function.token:nth-child(53)",
+      "text": "var",
+      "color": "rgb(221, 74, 104)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.59
+    },
+    {
+      "selector": ".function.token:nth-child(59)",
+      "text": "var",
+      "color": "rgb(221, 74, 104)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.59
+    },
+    {
+      "selector": ".function.token:nth-child(65)",
+      "text": "var",
+      "color": "rgb(221, 74, 104)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.59
+    },
+    {
+      "selector": "#panel-1 > markdown > .code-toolbar > pre > .language-html > .tag.token:nth-child(1) > .attr-name.token",
+      "text": "class",
+      "color": "rgb(102, 153, 0)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.08
+    },
+    {
+      "selector": "#panel-1 > markdown > .code-toolbar > pre > .language-html > .tag.token:nth-child(1) > .attr-value.token",
+      "text": "=\"row\"",
+      "color": "rgb(0, 119, 170)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 4.47
+    },
+    {
+      "selector": "#panel-1 > markdown > .code-toolbar > pre > .language-html > .tag.token:nth-child(2) > .attr-name.token",
+      "text": "class",
+      "color": "rgb(102, 153, 0)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.08
+    },
+    {
+      "selector": "#panel-1 > markdown > .code-toolbar > pre > .language-html > .tag.token:nth-child(2) > .attr-value.token",
+      "text": "=\"col-md-10\"",
+      "color": "rgb(0, 119, 170)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 4.47
+    },
+    {
+      "selector": "#panel-1 > markdown > .code-toolbar > pre > .language-html > .tag.token:nth-child(3) > .attr-name.token:nth-child(2)",
+      "text": "class",
+      "color": "rgb(102, 153, 0)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.08
+    },
+    {
+      "selector": "#panel-1 > markdown > .code-toolbar > pre > .language-html > .tag.token:nth-child(3) > .attr-value.token:nth-child(3)",
+      "text": "=\"br-button block\"",
+      "color": "rgb(0, 119, 170)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 4.47
+    },
+    {
+      "selector": "#panel-1 > markdown > .code-toolbar > pre > .language-html > .tag.token:nth-child(3) > .attr-name.token:nth-child(4)",
+      "text": "type",
+      "color": "rgb(102, 153, 0)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 3.08
+    },
+    {
+      "selector": "#panel-1 > markdown > .code-toolbar > pre > .language-html > .tag.token:nth-child(3) > .attr-value.token:nth-child(5)",
+      "text": "=\"button\"",
+      "color": "rgb(0, 119, 170)",
+      "bg": "rgb(245, 242, 240)",
+      "ratio": 4.47
+    }
+  ]
+}

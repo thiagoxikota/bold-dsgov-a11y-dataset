@@ -1,0 +1,710 @@
+{
+  "target": {
+    "id": "bold_table",
+    "url": "https://bold.bridge.ufsc.br/pt/components/table"
+  },
+  "summary": {
+    "count": 25,
+    "below45": 0,
+    "below30": 0,
+    "hoverBelow45": 0,
+    "focusBelow45": 0
+  },
+  "items": [
+    {
+      "selectorIndex": 0,
+      "box": {
+        "x": -999999,
+        "y": -999999,
+        "height": 56,
+        "width": 267.6875
+      },
+      "norm": {
+        "text": "Pular para o conteúdo principal",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(0, 105, 208)",
+        "ratio": 5.34
+      },
+      "hover": {
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(0, 105, 208)",
+        "ratio": 5.34
+      },
+      "focus": {
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(0, 105, 208)",
+        "ratio": 5.34
+      }
+    },
+    {
+      "selectorIndex": 1,
+      "box": null,
+      "norm": {
+        "text": "",
+        "tag": "button",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 2,
+      "box": {
+        "x": 76,
+        "y": 16,
+        "height": 45.5,
+        "width": 108.65625
+      },
+      "norm": {
+        "text": "bold_",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(0, 105, 208)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 5.34
+      },
+      "hover": {
+        "color": "rgb(0, 105, 208)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 5.34
+      },
+      "focus": {
+        "color": "rgb(0, 105, 208)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 5.34
+      }
+    },
+    {
+      "selectorIndex": 3,
+      "box": {
+        "x": 1196.984375,
+        "y": 22.75,
+        "height": 32,
+        "width": 34.640625
+      },
+      "norm": {
+        "text": "EN",
+        "tag": "button",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 4,
+      "box": {
+        "x": 1239.625,
+        "y": 22.75,
+        "height": 32,
+        "width": 33.375
+      },
+      "norm": {
+        "text": "PT",
+        "tag": "button",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(240, 240, 245)",
+        "ratio": 13.41
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(240, 240, 245)",
+        "ratio": 13.41
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(240, 240, 245)",
+        "ratio": 13.41
+      }
+    },
+    {
+      "selectorIndex": 5,
+      "box": {
+        "x": 1290,
+        "y": 22.75,
+        "height": 32,
+        "width": 40
+      },
+      "norm": {
+        "text": "",
+        "tag": "button",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 6,
+      "box": {
+        "x": 0,
+        "y": 108,
+        "height": 56,
+        "width": 287
+      },
+      "norm": {
+        "text": "Começando",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 7,
+      "box": {
+        "x": 0,
+        "y": 164,
+        "height": 56,
+        "width": 287
+      },
+      "norm": {
+        "text": "Sobre",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgba(236, 240, 255, 0.07)",
+        "ratio": 13.4
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgba(236, 240, 255, 0.07)",
+        "ratio": 13.4
+      }
+    },
+    {
+      "selectorIndex": 8,
+      "box": {
+        "x": 0,
+        "y": 220,
+        "height": 56,
+        "width": 287
+      },
+      "norm": {
+        "text": "Design Guidelines",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgba(236, 240, 255, 0.07)",
+        "ratio": 13.4
+      }
+    },
+    {
+      "selectorIndex": 9,
+      "box": {
+        "x": 0,
+        "y": 276,
+        "height": 56,
+        "width": 287
+      },
+      "norm": {
+        "text": "Usando",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgba(236, 240, 255, 0.07)",
+        "ratio": 13.4
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgba(236, 240, 255, 0.07)",
+        "ratio": 13.4
+      }
+    },
+    {
+      "selectorIndex": 10,
+      "box": {
+        "x": 0,
+        "y": 332,
+        "height": 56,
+        "width": 287
+      },
+      "norm": {
+        "text": "Componentes",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(0, 105, 208)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 5.34
+      },
+      "hover": {
+        "color": "rgb(0, 105, 208)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 5.34
+      },
+      "focus": {
+        "color": "rgb(0, 105, 208)",
+        "bg": "rgba(236, 240, 255, 0.07)",
+        "ratio": 4.7
+      }
+    },
+    {
+      "selectorIndex": 11,
+      "box": {
+        "x": 0,
+        "y": 388,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Visão geral",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgba(236, 240, 255, 0.07)",
+        "ratio": 13.4
+      }
+    },
+    {
+      "selectorIndex": 12,
+      "box": {
+        "x": 0,
+        "y": 421,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Accordion",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 13,
+      "box": {
+        "x": 0,
+        "y": 454,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Alert",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 14,
+      "box": {
+        "x": 0,
+        "y": 487,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Breadcrumb",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 15,
+      "box": {
+        "x": 0,
+        "y": 520,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Button",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 16,
+      "box": {
+        "x": 0,
+        "y": 553,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Cards",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 17,
+      "box": {
+        "x": 0,
+        "y": 586,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Checkbox",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 18,
+      "box": {
+        "x": 0,
+        "y": 619,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Content Switch",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 19,
+      "box": {
+        "x": 0,
+        "y": 652,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Date Picker",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 20,
+      "box": {
+        "x": 0,
+        "y": 685,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Dropdown",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 21,
+      "box": {
+        "x": 0,
+        "y": 718,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "File Uploader",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 22,
+      "box": {
+        "x": 0,
+        "y": 751,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Form",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 23,
+      "box": {
+        "x": 0,
+        "y": 784,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Link",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    },
+    {
+      "selectorIndex": 24,
+      "box": {
+        "x": 0,
+        "y": 817,
+        "height": 33,
+        "width": 287
+      },
+      "norm": {
+        "text": "Modal",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "hover": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      },
+      "focus": {
+        "color": "rgb(36, 37, 46)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 15.23
+      }
+    }
+  ]
+}

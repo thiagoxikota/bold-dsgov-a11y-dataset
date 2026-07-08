@@ -1,0 +1,655 @@
+{
+  "target": {
+    "id": "dsgov_table",
+    "url": "https://www.gov.br/ds/components/table?tab=desenvolvedor"
+  },
+  "summary": {
+    "count": 25,
+    "below45": 0,
+    "below30": 0,
+    "hoverBelow45": 0,
+    "focusBelow45": 0
+  },
+  "items": [
+    {
+      "selectorIndex": 0,
+      "box": {
+        "x": 40,
+        "y": 19,
+        "height": 26,
+        "width": 80
+      },
+      "norm": {
+        "text": "",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 1,
+      "box": null,
+      "norm": {
+        "text": "",
+        "tag": "button",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 2,
+      "box": {
+        "x": 810.5625,
+        "y": 21.84375,
+        "height": 20.296875,
+        "width": 83.5625
+      },
+      "norm": {
+        "text": "Comunidade",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 3,
+      "box": {
+        "x": 918.125,
+        "y": 21.84375,
+        "height": 20.296875,
+        "width": 97.078125
+      },
+      "norm": {
+        "text": "Padrão Mínimo",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 4,
+      "box": {
+        "x": 1039.203125,
+        "y": 21.84375,
+        "height": 20.296875,
+        "width": 117.796875
+      },
+      "norm": {
+        "text": "Web Components",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 5,
+      "box": null,
+      "norm": {
+        "text": "",
+        "tag": "button",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 6,
+      "box": {
+        "x": 1190,
+        "y": 16,
+        "height": 32,
+        "width": 32
+      },
+      "norm": {
+        "text": "Wiki",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 7,
+      "box": {
+        "x": 1230,
+        "y": 16,
+        "height": 32,
+        "width": 32
+      },
+      "norm": {
+        "text": "GitLab",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 8,
+      "box": {
+        "x": 1270,
+        "y": 16,
+        "height": 32,
+        "width": 32
+      },
+      "norm": {
+        "text": "Discord",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 9,
+      "box": null,
+      "norm": {
+        "text": "",
+        "tag": "button",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 10,
+      "box": {
+        "x": 40,
+        "y": 59,
+        "height": 32,
+        "width": 32
+      },
+      "norm": {
+        "text": "",
+        "tag": "button",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 11,
+      "box": {
+        "x": 88,
+        "y": 56,
+        "height": 34,
+        "width": 291.640625
+      },
+      "norm": {
+        "text": "Padrão Digital de Governo",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 12,
+      "box": null,
+      "norm": {
+        "text": "",
+        "tag": "button",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 13,
+      "box": {
+        "x": 40,
+        "y": 136,
+        "height": 53.296875,
+        "width": 303.5
+      },
+      "norm": {
+        "text": "Página inicial",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 14,
+      "box": {
+        "x": 40,
+        "y": 189.296875,
+        "height": 53.296875,
+        "width": 303.5
+      },
+      "norm": {
+        "text": "Introdução",
+        "tag": "a",
+        "role": "treeitem",
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 15,
+      "box": null,
+      "norm": {
+        "text": "Sobre o Design System",
+        "tag": "a",
+        "role": "treeitem",
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      }
+    },
+    {
+      "selectorIndex": 16,
+      "box": null,
+      "norm": {
+        "text": "Princípios do Design System",
+        "tag": "a",
+        "role": "treeitem",
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      }
+    },
+    {
+      "selectorIndex": 17,
+      "box": null,
+      "norm": {
+        "text": "Padrão Mínimo",
+        "tag": "a",
+        "role": "treeitem",
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      }
+    },
+    {
+      "selectorIndex": 18,
+      "box": null,
+      "norm": {
+        "text": "O que há de Novo?",
+        "tag": "a",
+        "role": "treeitem",
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      }
+    },
+    {
+      "selectorIndex": 19,
+      "box": null,
+      "norm": {
+        "text": "Comunidade",
+        "tag": "a",
+        "role": "treeitem",
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      }
+    },
+    {
+      "selectorIndex": 20,
+      "box": {
+        "x": 40,
+        "y": 242.59375,
+        "height": 53.296875,
+        "width": 303.5
+      },
+      "norm": {
+        "text": "Como Começar",
+        "tag": "a",
+        "role": "treeitem",
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    },
+    {
+      "selectorIndex": 21,
+      "box": null,
+      "norm": {
+        "text": "Bem-vindo(a) ao Padrão Digital de Governo",
+        "tag": "a",
+        "role": "treeitem",
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      }
+    },
+    {
+      "selectorIndex": 22,
+      "box": null,
+      "norm": {
+        "text": "Fluxo de Criação",
+        "tag": "a",
+        "role": "treeitem",
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      }
+    },
+    {
+      "selectorIndex": 23,
+      "box": null,
+      "norm": {
+        "text": "Fluxo de Desenvolvimento",
+        "tag": "a",
+        "role": "treeitem",
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(248, 248, 248)",
+        "ratio": 6.9
+      }
+    },
+    {
+      "selectorIndex": 24,
+      "box": {
+        "x": 40,
+        "y": 295.890625,
+        "height": 53.296875,
+        "width": 303.5
+      },
+      "norm": {
+        "text": "Acessibilidade",
+        "tag": "a",
+        "role": null,
+        "disabled": false,
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "hover": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      },
+      "focus": {
+        "color": "rgb(19, 81, 180)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 7.33
+      }
+    }
+  ]
+}

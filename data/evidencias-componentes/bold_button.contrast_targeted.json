@@ -1,0 +1,49 @@
+{
+  "target": {
+    "id": "bold_button",
+    "url": "https://bold.bridge.ufsc.br/pt/components/button"
+  },
+  "summary": {
+    "count": 5,
+    "below45": 5,
+    "noRatio": 0,
+    "notFound": 0
+  },
+  "items": [
+    {
+      "selector": ".tag.token:nth-child(23) > .script.language-javascript.token",
+      "text": "={{ marginRight: '0.5rem' }}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(33) > .script.language-javascript.token",
+      "text": "={{ marginRight: '0.5rem' }}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(43) > .script.language-javascript.token",
+      "text": "={{ marginRight: '0.5rem' }}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".comment",
+      "text": "// Simulate a delayed function",
+      "color": "rgb(112, 128, 144)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 3.76
+    },
+    {
+      "selector": ".tag.token:nth-child(51) > .script.language-javascript.token",
+      "text": "={handleClick}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "bold_form",
+    "url": "https://bold.bridge.ufsc.br/pt/components/form"
+  },
+  "summary": {
+    "count": 10,
+    "below45": 10,
+    "noRatio": 0,
+    "notFound": 0
+  },
+  "items": [
+    {
+      "selector": ".constant.token:nth-child(67)",
+      "text": "JSON",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(122) > .tag.token",
+      "text": "<form",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(122) > .script.language-javascript.token",
+      "text": "={handleSubmit}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(128) > .script.language-javascript.token:nth-child(9)",
+      "text": "={formState.name}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(134) > .script.language-javascript.token:nth-child(11)",
+      "text": "={formState.phone}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(140) > .script.language-javascript.token:nth-child(11)",
+      "text": "={formState.email}",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(186) > .tag.token",
+      "text": "</form",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(188) > .tag.token",
+      "text": "<pre",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".constant.token:nth-child(190)",
+      "text": "JSON",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    },
+    {
+      "selector": ".tag.token:nth-child(200) > .tag.token",
+      "text": "</pre",
+      "color": "rgb(249, 38, 114)",
+      "bg": "rgb(36, 37, 46)",
+      "ratio": 4.02
+    }
+  ]
+}

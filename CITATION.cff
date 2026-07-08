@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Se usar este dataset, cite o trabalho de origem abaixo."
+title: "Dataset: auditoria de acessibilidade Bold vs DSGov (WCAG nivel AA)"
+authors:
+  - family-names: "Xikota"
+    given-names: "Thiago Kenji Correa"
+    orcid: "https://orcid.org/0009-0001-1660-8526"
+    affiliation: "Universidade Federal de Santa Catarina (Lemme)"
+date-released: "2026-07-08"
+license: CC-BY-4.0
+repository-code: "https://github.com/thiagoxikota/bold-dsgov-a11y-dataset"
+preferred-citation:
+  type: thesis
+  title: "Acessibilidade digital em design systems publicos: uma auditoria de conformidade do Bold e DSGov"
+  authors:
+    - family-names: "Xikota"
+      given-names: "Thiago Kenji Correa"
+  year: 2025
+  institution:
+    name: "Universidade Federal de Santa Catarina, INE/CTC"
+  doi: "10.5281/zenodo.17740734"
+  url: "https://repositorio.ufsc.br/handle/123456789/270866"
