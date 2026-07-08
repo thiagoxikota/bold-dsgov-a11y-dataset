@@ -23,6 +23,7 @@ Este repositório dá lastro de reprodutibilidade ao trabalho de origem e aos ar
 
 - As contagens brutas dos exports excedem os totais consolidados: o pipeline do estudo deduplica por regra + seletor + contexto e remove o nível AAA (aproximadamente 200 ocorrências brutas no Bold e 700 no DSGov; 119 e 278 após deduplicação; 75 e 202 no recorte final AA).
 - Saídas intermediárias de script podem divergir da contagem consolidada em regras específicas (exemplo conhecido: 18 ocorrências de color-contrast no Bold numa saída intermediária contra 21 na contagem consolidada). O artigo derivado declara essas divergências; a reconciliação consta do relatório de auditoria depositado com o trabalho de origem.
+- O script `scripts/process_data.py` implementa a etapa de deduplicação por regra + seletor CSS; a atribuição por contexto de componente ocorre na análise por componente (`scripts/analyze_axe_json.py`) e o filtro de escopo AA está especificado e reconciliado no relatório de auditoria depositado com o trabalho de origem. Os scripts `generate_chart.py` e `generate_charts.py` são stubs ilustrativos de figura com valores inseridos à mão, não a análise de registro.
 
 ## Trabalho de origem e citação
 

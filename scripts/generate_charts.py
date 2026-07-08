@@ -1,3 +1,6 @@
+# NOTA: stub ilustrativo de figura com valores inseridos manualmente durante a exploracao.
+# NAO e a analise de registro; as contagens canonicas constam do relatorio de auditoria
+# depositado com o trabalho de origem (ver README).
 import matplotlib.pyplot as plt
 import numpy as np
 
