@@ -1,8 +1,13 @@
 # NOTA: stub ilustrativo de figura com valores inseridos manualmente durante a exploracao.
 # NAO e a analise de registro; as contagens canonicas constam do relatorio de auditoria
 # depositado com o trabalho de origem (ver README).
+import os
 import matplotlib.pyplot as plt
 import numpy as np
+
+# Output dir (repo-relative: scripts/ -> ../figures/)
+FIG_DIR = os.path.join(os.path.dirname(__file__), '..', 'figures')
+os.makedirs(FIG_DIR, exist_ok=True)
 
 # Data (approximate based on JSON summaries I saw)
 # DSGov: Critical 202, Serious 527, Moderate 4, Minor 12
@@ -31,5 +36,5 @@ ax.bar_label(rects2, padding=3)
 
 fig.tight_layout()
 
-plt.savefig('/Users/thiagoxikota/Documents/academic/Writing/Papers/Acessibilidade_Design_Systems_Publicos/figures/severity_dist.png')
+plt.savefig(os.path.join(FIG_DIR, 'severity_dist.png'))
 print("Chart saved.")

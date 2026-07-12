@@ -1,8 +1,13 @@
 # NOTA: stub ilustrativo de figura com valores inseridos manualmente durante a exploracao.
 # NAO e a analise de registro; as contagens canonicas constam do relatorio de auditoria
 # depositado com o trabalho de origem (ver README).
+import os
 import matplotlib.pyplot as plt
 import numpy as np
+
+# Output dir (repo-relative: scripts/ -> ../figures/)
+FIG_DIR = os.path.join(os.path.dirname(__file__), '..', 'figures')
+os.makedirs(FIG_DIR, exist_ok=True)
 
 # Data for Severity Comparison
 systems = ['Bold', 'DSGov']
@@ -32,7 +37,7 @@ ax.bar_label(rects3, padding=3)
 ax.bar_label(rects4, padding=3)
 
 fig.tight_layout()
-plt.savefig('/Users/thiagoxikota/Documents/dados/figura_comparativo_severidade.png')
+plt.savefig(os.path.join(FIG_DIR, 'figura_comparativo_severidade.png'))
 plt.close()
 
 # Data for POUR Comparison (Approximate percentages based on text)
@@ -106,7 +111,7 @@ ax.bar_label(rects1, padding=3, fmt='%.1f%%')
 ax.bar_label(rects2, padding=3, fmt='%.1f%%')
 
 fig.tight_layout()
-plt.savefig('/Users/thiagoxikota/Documents/dados/figura_comparativo_pour.png')
+plt.savefig(os.path.join(FIG_DIR, 'figura_comparativo_pour.png'))
 plt.close()
 
 # Data for Top Rules - Bold
@@ -121,7 +126,7 @@ ax.set_xlabel('Número de Ocorrências')
 ax.set_title('Principais Regras Automatizadas Afetadas - Bold Design System')
 ax.bar_label(rects, padding=3)
 fig.tight_layout()
-plt.savefig('/Users/thiagoxikota/Documents/dados/figura_top_rules_bold.png')
+plt.savefig(os.path.join(FIG_DIR, 'figura_top_rules_bold.png'))
 plt.close()
 
 # Data for Top Rules - DSGov
@@ -136,7 +141,7 @@ ax.set_xlabel('Número de Ocorrências')
 ax.set_title('Principais Regras Automatizadas Afetadas - DSGov')
 ax.bar_label(rects, padding=3)
 fig.tight_layout()
-plt.savefig('/Users/thiagoxikota/Documents/dados/figura_top_rules_dsgov.png')
+plt.savefig(os.path.join(FIG_DIR, 'figura_top_rules_dsgov.png'))
 plt.close()
 
 # Data for Lighthouse Scores (Figure 10)
@@ -150,7 +155,7 @@ ax.set_title('Comparativo de Pontuação de Acessibilidade - Lighthouse')
 ax.set_ylim(0, 110)
 ax.bar_label(bars, padding=3, fontsize=12, fmt='%d')
 fig.tight_layout()
-plt.savefig('/Users/thiagoxikota/Documents/dados/figura_lighthouse_score.png')
+plt.savefig(os.path.join(FIG_DIR, 'figura_lighthouse_score.png'))
 plt.close()
 
 # Data for Lighthouse POUR Distribution (Figure 9)
@@ -165,5 +170,5 @@ ax.set_ylabel('Distribuição Estimada (%)')
 ax.set_title('Distribuição de Não Conformidades por Princípio - Lighthouse')
 ax.bar_label(bars, padding=3, fmt='%d%%')
 fig.tight_layout()
-plt.savefig('/Users/thiagoxikota/Documents/dados/figura_lighthouse_pour.png')
+plt.savefig(os.path.join(FIG_DIR, 'figura_lighthouse_pour.png'))
 plt.close()
