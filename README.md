@@ -12,12 +12,41 @@ Este repositório dá lastro de reprodutibilidade ao trabalho de origem e aos ar
 | `data/evidencias-componentes/` | Sondas por componente (alert, button, form, input, message, table): axe-core 4.11.0 headless (`*.axe.json`, `*.axe-scoped.json`) e medição direta de contraste com razões computadas por elemento (`*.contrast.json`, `*.contrast_targeted.json`) |
 | `scripts/` | Scripts de processamento e geração de gráficos usados na análise (`process_data.py`, `generate_charts.py`, `analyze_axe_json.py`, `generate_chart.py`) |
 
+## Dicionário de dados (`data/evidencias-componentes/`)
+
+Cada componente sondado tem um conjunto de arquivos por sufixo:
+
+- `*.axe.json`: passagem completa do axe-core (headless, axe-core 4.11.0) sobre a página de documentação do componente, no formato padrão do axe-core com os grupos de resultado (`passes`, `violations`, `incomplete`, `inapplicable`) e os metadados de engine e ambiente (viewport, user agent).
+- `*.axe-scoped.json`: a mesma passagem do axe-core restrita ao componente por seletores CSS (`context.include`), guardando os metadados do alvo (`ds`, `comp`, `url`), os seletores usados e o resultado (`results`) daquele recorte.
+- `*.contrast.json`: medição direta de contraste dos elementos da página, com a razão computada por elemento nos estados normal, hover e foco e um resumo de quantas razões ficam abaixo dos limiares (`below45`, `below30`).
+- `*.contrast_targeted.json`: medição de contraste restrita a um conjunto específico de seletores, cada item com seletor, texto, cor de primeiro plano, fundo e razão computada.
+- `axe-summaries.json`: índice consolidado com uma entrada por componente sondado, cada uma com os metadados (`ds`, `comp`, `url`), um bloco estrutural (`lang`, contagem de `h1`, landmarks, presença de skip link) e um resumo do axe por impacto e por categoria.
+
 ## Condições de coleta
 
 - Coleta: setembro a novembro de 2025 (passagens principais em 08/11/2025).
 - Viewport das passagens Axe DevTools: 1440x900. Sondas headless por componente: 1366x900.
 - Objetos auditados: documentação pública do Bold (bold.bridge.ufsc.br) e do DSGov (gov.br/ds). Design systems são versionados; os sites podem ter mudado após a coleta.
 - Os campos `screenshotURL` dos exports apontam para a API da Deque (axe.deque.com) e podem exigir autenticação ou ter expirado; são preservados por fidelidade ao export original.
+
+## Como reproduzir
+
+Requisitos: Python 3.9+ e as dependências listadas em `requirements.txt` (`matplotlib` e `numpy`).
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Com o ambiente ativo, a partir da raiz do repositório:
+
+```bash
+python3 scripts/process_data.py      # deduplicação por regra + seletor
+python3 scripts/analyze_axe_json.py  # análise por componente, tabelas LaTeX no stdout
+```
+
+Os dois scripts leem os exports em `data/axe/` por caminho relativo ao repositório e rodam tanto da raiz quanto de dentro de `scripts/`. As contagens canônicas (277 = 75 Bold + 202 DSGov, recorte AA) vêm do relatório de auditoria depositado com o trabalho de origem; saídas intermediárias de script podem divergir em regras específicas.
 
 ## Notas de leitura (transparência)
 
@@ -45,6 +74,8 @@ BibTeX:
 ```
 
 Ver também `CITATION.cff`.
+
+Trabalho derivado aprovado na lista oficial do Fórum BrasilGov Academy (BrasilGov Summit 2026, Florianópolis): 'Inclusão por Padrão: Auditoria Comparativa de Acessibilidade entre Implementações Bold e DSGov em Portais Públicos' (Thiago Kenji Corrêa Xikota, UFSC). O fórum não publica anais; não há DOI nem link estável para o trabalho derivado.
 
 ## Licença
 
