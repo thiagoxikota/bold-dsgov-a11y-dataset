@@ -3,9 +3,10 @@ import re
 from collections import defaultdict
 import os
 
-# Paths
-DSGOV_PATH = '/Users/thiagoxikota/Documents/academic/Writing/Papers/Acessibilidade_Design_Systems_Publicos/tests/teste-doc-dsgov-axe.json'
-BOLD_PATH = '/Users/thiagoxikota/Documents/academic/Writing/Papers/Acessibilidade_Design_Systems_Publicos/tests/teste-doc-bold-axe.json'
+# Paths (repo-relative: scripts/ -> ../data/axe/)
+BASE = os.path.join(os.path.dirname(__file__), '..', 'data', 'axe')
+DSGOV_PATH = os.path.join(BASE, 'teste-doc-dsgov-axe.json')
+BOLD_PATH = os.path.join(BASE, 'teste-doc-bold-axe.json')
 
 def parse_dsgov_component(title):
     # Format: "State change detected - Padrão Digital de Governo - [Component]"

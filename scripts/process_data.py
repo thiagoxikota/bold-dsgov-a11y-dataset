@@ -1,6 +1,9 @@
 import json
 import os
 
+# Data dir (repo-relative: scripts/ -> ../data/axe/)
+DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data', 'axe')
+
 def load_json(filepath):
     try:
         with open(filepath, 'r') as f:
@@ -31,11 +34,12 @@ def process_files():
 
     for system, file_list in files.items():
         for filename in file_list:
-            if not os.path.exists(filename):
-                print(f"File not found: {filename}")
+            filepath = os.path.join(DATA_DIR, filename)
+            if not os.path.exists(filepath):
+                print(f"File not found: {filepath}")
                 continue
-            
-            content = load_json(filename)
+
+            content = load_json(filepath)
             
             # Determine where the issues are
             issues = []
