@@ -1,0 +1,334 @@
+{
+ "started": "2026-07-30T15:54:47-0300",
+ "chrome": "142.0.7444.175 (headless shell)",
+ "viewport": "1366x900",
+ "pages": {
+  "bold_home": {
+   "url": "https://bold.bridge.ufsc.br/pt/",
+   "system": "bold",
+   "ok": true,
+   "layers": {
+    "devtools": {
+     "file": "bold_home.devtools.axe-4.10.3.json",
+     "byId": {},
+     "total": 0,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "bold_alert": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/alert/",
+   "system": "bold",
+   "ok": true,
+   "layers": {
+    "sonda": {
+     "file": "bold_alert.sonda.axe-4.11.0.json",
+     "byId": {
+      "color-contrast": 4
+     },
+     "total": 4,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    },
+    "devtools": {
+     "file": "bold_alert.devtools.axe-4.10.3.json",
+     "byId": {
+      "color-contrast": 4
+     },
+     "total": 4,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "bold_button": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/button/",
+   "system": "bold",
+   "ok": true,
+   "layers": {
+    "sonda": {
+     "file": "bold_button.sonda.axe-4.11.0.json",
+     "byId": {
+      "color-contrast": 5
+     },
+     "total": 5,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    },
+    "devtools": {
+     "file": "bold_button.devtools.axe-4.10.3.json",
+     "byId": {
+      "color-contrast": 5
+     },
+     "total": 5,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "bold_checkbox": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/checkbox/",
+   "system": "bold",
+   "ok": true,
+   "layers": {
+    "devtools": {
+     "file": "bold_checkbox.devtools.axe-4.10.3.json",
+     "byId": {},
+     "total": 0,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "bold_form": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/form/",
+   "system": "bold",
+   "ok": true,
+   "layers": {
+    "sonda": {
+     "file": "bold_form.sonda.axe-4.11.0.json",
+     "byId": {
+      "color-contrast": 10
+     },
+     "total": 10,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    },
+    "devtools": {
+     "file": "bold_form.devtools.axe-4.10.3.json",
+     "byId": {
+      "color-contrast": 10
+     },
+     "total": 10,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "bold_table": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/table/",
+   "system": "bold",
+   "ok": true,
+   "layers": {
+    "sonda": {
+     "file": "bold_table.sonda.axe-4.11.0.json",
+     "byId": {
+      "button-name": 19,
+      "color-contrast": 5
+     },
+     "total": 24,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "bold_a11y": {
+   "url": "https://bold.bridge.ufsc.br/pt/design-guidelines/accessibility",
+   "system": "bold",
+   "ok": true,
+   "layers": {
+    "devtools": {
+     "file": "bold_a11y.devtools.axe-4.10.3.json",
+     "byId": {},
+     "total": 0,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "bold_getting_started": {
+   "url": "https://bold.bridge.ufsc.br/pt/getting-started/",
+   "system": "bold",
+   "ok": true,
+   "layers": {
+    "devtools": {
+     "file": "bold_getting_started.devtools.axe-4.10.3.json",
+     "byId": {
+      "color-contrast": 3,
+      "scrollable-region-focusable": 1
+     },
+     "total": 4,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "dsgov_home": {
+   "url": "https://www.gov.br/ds/home",
+   "system": "dsgov",
+   "ok": true,
+   "layers": {
+    "devtools": {
+     "file": "dsgov_home.devtools.axe-4.10.3.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 1,
+      "link-in-text-block": 2
+     },
+     "total": 4,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "dsgov_a11y": {
+   "url": "https://www.gov.br/ds/acessibilidade",
+   "system": "dsgov",
+   "ok": true,
+   "layers": {
+    "devtools": {
+     "file": "dsgov_a11y.devtools.axe-4.10.3.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 1,
+      "link-in-text-block": 2
+     },
+     "total": 4,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "dsgov_button": {
+   "url": "https://www.gov.br/ds/components/button?tab=desenvolvedor",
+   "system": "dsgov",
+   "ok": true,
+   "layers": {
+    "sonda": {
+     "file": "dsgov_button.sonda.axe-4.11.0.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 15,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "total": 94,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    },
+    "devtools": {
+     "file": "dsgov_button.devtools.axe-4.10.3.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 15,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "total": 94,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "dsgov_input": {
+   "url": "https://www.gov.br/ds/components/input?tab=desenvolvedor",
+   "system": "dsgov",
+   "ok": true,
+   "layers": {
+    "sonda": {
+     "file": "dsgov_input.sonda.axe-4.11.0.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 26,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "total": 105,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    },
+    "devtools": {
+     "file": "dsgov_input.devtools.axe-4.10.3.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 26,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "total": 105,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "dsgov_menu": {
+   "url": "https://www.gov.br/ds/components/menu?tab=desenvolvedor",
+   "system": "dsgov",
+   "ok": true,
+   "layers": {
+    "sonda": {
+     "file": "dsgov_menu.sonda.axe-4.11.0.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 80,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "total": 159,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    },
+    "devtools": {
+     "file": "dsgov_menu.devtools.axe-4.10.3.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 80,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "total": 159,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "dsgov_message": {
+   "url": "https://www.gov.br/ds/components/message?tab=desenvolvedor",
+   "system": "dsgov",
+   "ok": true,
+   "layers": {
+    "sonda": {
+     "file": "dsgov_message.sonda.axe-4.11.0.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 28,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "total": 107,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    },
+    "devtools": {
+     "file": "dsgov_message.devtools.axe-4.10.3.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 28,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "total": 107,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  },
+  "dsgov_table": {
+   "url": "https://www.gov.br/ds/components/table?tab=desenvolvedor",
+   "system": "dsgov",
+   "ok": true,
+   "layers": {
+    "sonda": {
+     "file": "dsgov_table.sonda.axe-4.11.0.json",
+     "byId": {
+      "aria-allowed-attr": 1,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 23,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "total": 102,
+     "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.7444.175 Safari/537.36"
+    }
+   }
+  }
+ },
+ "finished": "2026-07-30T15:57:00-0300"
+}

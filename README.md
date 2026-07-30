@@ -11,6 +11,8 @@ Este repositório dá lastro de reprodutibilidade ao trabalho de origem e aos ar
 | `data/axe/` | Exports brutos do Axe DevTools (axe-core 4.10.3, WCAG 2.1 AA ruleset com marcações 2.0/2.1/2.2): duas passagens de documentação (`teste-doc-*`) e duas de bateria guiada (`testes-especificos-*`), uma por sistema |
 | `data/evidencias-componentes/` | Sondas por componente (alert, button, form, input, message, table): axe-core 4.11.0 headless (`*.axe.json`, `*.axe-scoped.json`) e medição direta de contraste com razões computadas por elemento (`*.contrast.json`, `*.contrast_targeted.json`) |
 | `scripts/` | Scripts de processamento e geração de gráficos usados na análise (`process_data.py`, `generate_charts.py`, `analyze_axe_json.py`, `generate_chart.py`) |
+| `data/reaudit-2026-07/` | Reauditoria de 30/07/2026 sobre a versão ao vivo dos dois sistemas, com ambiente pinado e diffs frente à coleta de nov/2025 (relatório no README da pasta). Resultado: identidade total na camada de sondas; duas mudanças pontuais no DSGov fora das páginas instrumentadas |
+| `scripts/reaudit-2026/` | Harness da reauditoria (Playwright + axe-core pinados) com instruções de reprodução |
 
 ## Dicionário de dados (`data/evidencias-componentes/`)
 
