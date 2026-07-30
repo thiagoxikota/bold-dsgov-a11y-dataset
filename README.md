@@ -13,6 +13,8 @@ Este repositório dá lastro de reprodutibilidade ao trabalho de origem e aos ar
 | `scripts/` | Scripts de processamento e geração de gráficos usados na análise (`process_data.py`, `generate_charts.py`, `analyze_axe_json.py`, `generate_chart.py`) |
 | `data/reaudit-2026-07/` | Reauditoria de 30/07/2026 sobre a versão ao vivo dos dois sistemas, com ambiente pinado e diffs frente à coleta de nov/2025 (relatório no README da pasta). Resultado: identidade total na camada de sondas; duas mudanças pontuais no DSGov fora das páginas instrumentadas |
 | `scripts/reaudit-2026/` | Harness da reauditoria (Playwright + axe-core pinados) com instruções de reprodução |
+| `data/piloto-2026-07/` | Piloto de 30/07/2026: correção experimental em fork do código de exemplo do Menu Push (DSGov). Antes: 22 nós de violação de estrutura ARIA; depois: 0, na mesma auditoria pinada. Correção em fork, não incorporada pelo mantenedor (relatório no README da pasta) |
+| `scripts/piloto-2026/` | Script de auditoria antes/depois do fork do piloto |
 
 ## Dicionário de dados (`data/evidencias-componentes/`)
 
