@@ -1,0 +1,3 @@
+# Binarios de runtime baixados pelas rodadas de reauditoria (nao versionar)
+scripts/reaudit-2026/chrome-headless-shell-mac-arm64/
+scripts/reaudit-2026/axe-*/
