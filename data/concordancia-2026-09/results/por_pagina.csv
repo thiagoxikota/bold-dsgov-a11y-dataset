@@ -1,0 +1,16 @@
+pagina,sistema,url,axe_instancias,axe_sc,axe_revisar,lighthouse_instancias,lighthouse_sc,lighthouse_revisar,ibm_instancias,ibm_sc,ibm_revisar,htmlcs_instancias,htmlcs_sc,htmlcs_revisar,sc_uniao,sc_todas4,sc_3engines
+bold_home,bold,https://bold.bridge.ufsc.br/pt/,0,0,1,0,0,10,1,1,4,2,1,68,2,0,0
+bold_alert,bold,https://bold.bridge.ufsc.br/pt/components/alert/,4,1,4,4,1,10,1,1,18,6,2,101,3,0,0
+bold_button,bold,https://bold.bridge.ufsc.br/pt/components/button/,5,1,14,5,1,10,1,1,14,7,2,117,3,0,0
+bold_checkbox,bold,https://bold.bridge.ufsc.br/pt/components/checkbox/,0,0,0,0,0,10,2,2,8,3,2,102,3,0,0
+bold_form,bold,https://bold.bridge.ufsc.br/pt/components/form/,10,1,2,10,1,10,4,2,27,12,2,128,4,0,0
+bold_table,bold,https://bold.bridge.ufsc.br/pt/components/table/,24,2,0,26,3,10,22,2,12,26,3,126,5,1,1
+bold_a11y,bold,https://bold.bridge.ufsc.br/pt/design-guidelines/accessibility,0,0,0,0,0,10,1,1,4,2,1,86,2,0,0
+bold_getting_started,bold,https://bold.bridge.ufsc.br/pt/getting-started/,4,2,0,3,1,10,1,1,9,5,2,73,4,0,0
+dsgov_home,dsgov,https://www.gov.br/ds/home,4,3,26,6,3,10,2,1,7,3,1,240,4,0,0
+dsgov_a11y,dsgov,https://www.gov.br/ds/acessibilidade,4,3,0,6,3,10,2,1,16,7,4,214,5,1,1
+dsgov_button,dsgov,https://www.gov.br/ds/components/button?tab=desenvolvedor,94,4,203,116,5,10,71,4,338,667,5,570,8,2,2
+dsgov_input,dsgov,https://www.gov.br/ds/components/input?tab=desenvolvedor,107,4,248,128,5,10,64,4,460,826,5,573,8,2,2
+dsgov_menu,dsgov,https://www.gov.br/ds/components/menu?tab=desenvolvedor,159,4,294,176,5,10,64,4,484,1112,5,582,8,2,2
+dsgov_message,dsgov,https://www.gov.br/ds/components/message?tab=desenvolvedor,107,4,171,118,5,10,24,4,311,613,5,430,8,2,2
+dsgov_table,dsgov,https://www.gov.br/ds/components/table?tab=desenvolvedor,111,4,212,124,5,10,64,4,324,723,5,504,8,2,2

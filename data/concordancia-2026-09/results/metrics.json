@@ -1,0 +1,432 @@
+{
+ "versoes": {
+  "axe": "4.11.0",
+  "lighthouse": "12.8.2",
+  "ibm": "4.0.34",
+  "ibm_archive": "Latest Deployment (latest)",
+  "htmlcs": "2.5.1",
+  "pa11y": "8.0.0"
+ },
+ "paginas_completas": [
+  "bold_home",
+  "bold_alert",
+  "bold_button",
+  "bold_checkbox",
+  "bold_form",
+  "bold_table",
+  "bold_a11y",
+  "bold_getting_started",
+  "dsgov_home",
+  "dsgov_a11y",
+  "dsgov_button",
+  "dsgov_input",
+  "dsgov_menu",
+  "dsgov_message",
+  "dsgov_table"
+ ],
+ "faltando": [],
+ "universo": {
+  "criterios_A_AA_wcag21": 50,
+  "celulas": 750
+ },
+ "pares_marcados": {
+  "axe": 33,
+  "lighthouse": 38,
+  "ibm": 33,
+  "htmlcs": 45
+ },
+ "criterios_distintos": {
+  "axe": 5,
+  "lighthouse": 5,
+  "ibm": 6,
+  "htmlcs": 5
+ },
+ "criterios_distintos_lista": {
+  "axe": [
+   "1.3.1",
+   "1.4.1",
+   "1.4.3",
+   "2.1.1",
+   "4.1.2"
+  ],
+  "lighthouse": [
+   "1.3.1",
+   "1.4.1",
+   "1.4.3",
+   "2.5.3",
+   "4.1.2"
+  ],
+  "ibm": [
+   "1.1.1",
+   "1.3.1",
+   "1.4.3",
+   "2.5.3",
+   "3.1.1",
+   "4.1.2"
+  ],
+  "htmlcs": [
+   "1.3.1",
+   "1.4.3",
+   "3.2.2",
+   "4.1.1",
+   "4.1.2"
+  ]
+ },
+ "instancias_total": {
+  "axe": 633,
+  "lighthouse": 722,
+  "ibm": 324,
+  "htmlcs": 4014
+ },
+ "revisar_total": {
+  "axe": 1175,
+  "lighthouse": 150,
+  "ibm": 2036,
+  "htmlcs": 3914
+ },
+ "uniao_pares": 75,
+ "todas4_pares": 12,
+ "tres_engines_pares": 12,
+ "exclusivos": {
+  "axe": 1,
+  "lighthouse": 1,
+  "ibm": 14,
+  "htmlcs": 21
+ },
+ "distribuicao_n_ferramentas": {
+  "1": 37,
+  "2": 14,
+  "3": 12,
+  "4": 12
+ },
+ "distribuicao_n_engines_entre_pares_da_uniao": {
+  "0": 1,
+  "1": 49,
+  "2": 13,
+  "3": 12
+ },
+ "pairwise": {
+  "axe|lighthouse": {
+   "jaccard": 0.8205128205128205,
+   "intersecao": 32,
+   "uniao": 39,
+   "kappa_cohen": 0.8965354144495687,
+   "concordancia_observada": 0.9906666666666667,
+   "so_a": 1,
+   "so_b": 6
+  },
+  "axe|ibm": {
+   "jaccard": 0.24528301886792453,
+   "intersecao": 13,
+   "uniao": 53,
+   "kappa_cohen": 0.3660453911499934,
+   "concordancia_observada": 0.9466666666666667,
+   "so_a": 20,
+   "so_b": 20
+  },
+  "axe|htmlcs": {
+   "jaccard": 0.41818181818181815,
+   "intersecao": 23,
+   "uniao": 55,
+   "kappa_cohen": 0.5678011885467324,
+   "concordancia_observada": 0.9573333333333334,
+   "so_a": 10,
+   "so_b": 22
+  },
+  "lighthouse|ibm": {
+   "jaccard": 0.33962264150943394,
+   "intersecao": 18,
+   "uniao": 53,
+   "kappa_cohen": 0.4826770722478428,
+   "concordancia_observada": 0.9533333333333334,
+   "so_a": 20,
+   "so_b": 15
+  },
+  "lighthouse|htmlcs": {
+   "jaccard": 0.38333333333333336,
+   "intersecao": 23,
+   "uniao": 60,
+   "kappa_cohen": 0.5283018867924525,
+   "concordancia_observada": 0.9506666666666667,
+   "so_a": 15,
+   "so_b": 22
+  },
+  "ibm|htmlcs": {
+   "jaccard": 0.2,
+   "intersecao": 13,
+   "uniao": 65,
+   "kappa_cohen": 0.2976769313884394,
+   "concordancia_observada": 0.9306666666666666,
+   "so_a": 20,
+   "so_b": 32
+  }
+ },
+ "fleiss_kappa_4": 0.5221269353270611,
+ "fleiss_kappa_3engines": 0.41245593419506615,
+ "por_sistema": {
+  "bold": {
+   "paginas": 8,
+   "axe_instancias": 47,
+   "axe_pares": 7,
+   "lighthouse_instancias": 48,
+   "lighthouse_pares": 7,
+   "ibm_instancias": 33,
+   "ibm_pares": 11,
+   "htmlcs_instancias": 63,
+   "htmlcs_pares": 15,
+   "pares_uniao": 26
+  },
+  "dsgov": {
+   "paginas": 7,
+   "axe_instancias": 586,
+   "axe_pares": 26,
+   "lighthouse_instancias": 674,
+   "lighthouse_pares": 31,
+   "ibm_instancias": 291,
+   "ibm_pares": 22,
+   "htmlcs_instancias": 3951,
+   "htmlcs_pares": 30,
+   "pares_uniao": 49
+  }
+ },
+ "cobertura_catalogo_n": {
+  "axe": 21,
+  "lighthouse": 15,
+  "ibm": 37,
+  "htmlcs": 49
+ },
+ "cobertura_catalogo": {
+  "axe": [
+   "1.1.1",
+   "1.2.2",
+   "1.3.1",
+   "1.3.4",
+   "1.3.5",
+   "1.4.1",
+   "1.4.12",
+   "1.4.2",
+   "1.4.3",
+   "1.4.4",
+   "2.1.1",
+   "2.2.1",
+   "2.2.2",
+   "2.4.1",
+   "2.4.2",
+   "2.4.4",
+   "2.5.3",
+   "3.1.1",
+   "3.1.2",
+   "3.3.2",
+   "4.1.2"
+  ],
+  "lighthouse": [
+   "1.1.1",
+   "1.2.2",
+   "1.3.1",
+   "1.4.1",
+   "1.4.3",
+   "1.4.4",
+   "2.2.1",
+   "2.4.1",
+   "2.4.2",
+   "2.4.4",
+   "2.5.3",
+   "3.1.1",
+   "3.1.2",
+   "3.3.2",
+   "4.1.2"
+  ],
+  "ibm": [
+   "1.1.1",
+   "1.2.1",
+   "1.2.2",
+   "1.2.3",
+   "1.2.4",
+   "1.2.5",
+   "1.3.1",
+   "1.3.2",
+   "1.3.3",
+   "1.3.4",
+   "1.3.5",
+   "1.4.1",
+   "1.4.10",
+   "1.4.11",
+   "1.4.12",
+   "1.4.13",
+   "1.4.2",
+   "1.4.3",
+   "1.4.4",
+   "2.1.1",
+   "2.1.2",
+   "2.2.1",
+   "2.2.2",
+   "2.4.1",
+   "2.4.2",
+   "2.4.3",
+   "2.4.4",
+   "2.4.6",
+   "2.4.7",
+   "2.5.3",
+   "3.1.1",
+   "3.1.2",
+   "3.2.1",
+   "3.2.2",
+   "3.3.1",
+   "3.3.2",
+   "4.1.2"
+  ],
+  "htmlcs": [
+   "1.1.1",
+   "1.2.1",
+   "1.2.2",
+   "1.2.4",
+   "1.2.5",
+   "1.3.1",
+   "1.3.2",
+   "1.3.3",
+   "1.3.4",
+   "1.3.5",
+   "1.4.1",
+   "1.4.10",
+   "1.4.11",
+   "1.4.12",
+   "1.4.13",
+   "1.4.2",
+   "1.4.3",
+   "1.4.4",
+   "1.4.5",
+   "2.1.1",
+   "2.1.2",
+   "2.1.4",
+   "2.2.1",
+   "2.2.2",
+   "2.3.1",
+   "2.4.1",
+   "2.4.2",
+   "2.4.3",
+   "2.4.4",
+   "2.4.5",
+   "2.4.6",
+   "2.4.7",
+   "2.5.1",
+   "2.5.2",
+   "2.5.3",
+   "2.5.4",
+   "3.1.1",
+   "3.1.2",
+   "3.2.1",
+   "3.2.2",
+   "3.2.3",
+   "3.2.4",
+   "3.3.1",
+   "3.3.2",
+   "3.3.3",
+   "3.3.4",
+   "4.1.1",
+   "4.1.2",
+   "4.1.3"
+  ]
+ },
+ "criterios_sem_ferramenta": [],
+ "fora_do_universo": {
+  "axe": {
+   "2.1.3": 1,
+   "2.5.8": 11
+  },
+  "lighthouse": {
+   "2.5.8": 11
+  }
+ },
+ "nao_mapeados": {
+  "lighthouse": {
+   "aria-allowed-role": 14
+  }
+ },
+ "regras_por_ferramenta": {
+  "axe": {
+   "color-contrast": 199,
+   "aria-required-parent": 185,
+   "listitem": 185,
+   "button-name": 19,
+   "link-in-text-block": 14,
+   "aria-required-children": 12,
+   "target-size": 11,
+   "aria-allowed-attr": 7,
+   "scrollable-region-focusable": 1
+  },
+  "lighthouse": {
+   "color-contrast": 199,
+   "aria-required-parent": 185,
+   "listitem": 185,
+   "label-content-name-mismatch": 74,
+   "button-name": 19,
+   "aria-allowed-role": 14,
+   "link-in-text-block": 14,
+   "aria-required-children": 12,
+   "target-size": 11,
+   "aria-allowed-attr": 7,
+   "td-has-header": 2
+  },
+  "ibm": {
+   "label_name_visible": 75,
+   "aria_navigation_label_unique": 35,
+   "table_headers_related": 27,
+   "aria_form_label_unique": 25,
+   "label_content_exists": 25,
+   "label_ref_valid": 25,
+   "html_lang_exists": 25,
+   "input_label_exists": 21,
+   "aria_role_valid": 20,
+   "form_label_unique": 20,
+   "aria_widget_labelled": 15,
+   "input_checkboxes_grouped": 3,
+   "aria_parent_required": 3,
+   "svg_graphics_labelled": 2,
+   "text_contrast_sufficient": 1,
+   "table_scope_valid": 1,
+   "combobox_haspopup_valid": 1
+  },
+  "htmlcs": {
+   "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail": 3594,
+   "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr": 291,
+   "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77": 62,
+   "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name": 19,
+   "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2": 16,
+   "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name": 16,
+   "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68": 16
+  }
+ },
+ "regras_dos_pares_exclusivos": {
+  "axe": {
+   "2.1.1:scrollable-region-focusable": 1
+  },
+  "lighthouse": {
+   "1.3.1:td-has-header": 1
+  },
+  "ibm": {
+   "4.1.2:aria_role_valid": 7,
+   "1.3.1:input_checkboxes_grouped": 1,
+   "1.1.1:svg_graphics_labelled": 1,
+   "3.1.1:html_lang_exists": 5
+  },
+  "htmlcs": {
+   "4.1.1:WCAG2AA.Principle4.Guideline4_1.4_1_1.F77": 15,
+   "3.2.2:WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2": 6
+  }
+ },
+ "axe_regras_experimentais": [
+  "css-orientation-lock",
+  "focus-order-semantics",
+  "hidden-content",
+  "label-content-name-mismatch",
+  "p-as-heading",
+  "table-fake-caption",
+  "td-has-header"
+ ],
+ "axe_regras_deprecated": [
+  "aria-roledescription",
+  "audio-caption",
+  "duplicate-id",
+  "duplicate-id-active"
+ ]
+}

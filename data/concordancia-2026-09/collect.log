@@ -1,0 +1,70 @@
+[2026-09-14T19:11:41.100Z] bold_alert axe: ok 1
+[2026-09-14T19:11:52.116Z] bold_alert ibm: ERROR Package subpath './package.json' is not defined by "exports" in /private/tmp/claude-501/-Users-thiagoxikota/e2c1ef2e-69b8-4063-af9f-012cc2564b15/scratchpad/concord/node_modules/accessibility-checker/package.json
+[2026-09-14T19:12:00.737Z] bold_alert htmlcs: ok 6
+[2026-09-14T19:12:24.229Z] bold_alert lighthouse: ok 0.96
+[2026-09-14T19:12:24.230Z] done
+[2026-09-14T19:13:07.372Z] bold_alert ibm: ok {"ignored":0,"elements":33,"elementsViolation":3,"elementsViolationReview":24,"violation":3,"potentialviolation":25,"recommendation":2,"potentialrecommendation":7,"manual":1,"pass":2113}
+[2026-09-14T19:13:07.392Z] done
+[2026-09-14T19:14:01.533Z] bold_alert ibm: ok {"ignored":0,"elements":423,"elementsViolation":1,"elementsViolationReview":18,"violation":1,"potentialviolation":18,"recommendation":2,"potentialrecommendation":7,"manual":1,"pass":1951}
+[2026-09-14T19:14:01.544Z] done
+[2026-09-14T19:14:23.394Z] bold_home axe: ok 0
+[2026-09-14T19:14:33.957Z] bold_home ibm: ok {"ignored":0,"elements":171,"elementsViolation":1,"elementsViolationReview":5,"violation":1,"potentialviolation":4,"recommendation":11,"potentialrecommendation":7,"manual":2,"pass":906}
+[2026-09-14T19:14:42.776Z] bold_home htmlcs: ok 2
+[2026-09-14T19:15:04.363Z] bold_home lighthouse: ok 1
+[2026-09-14T19:15:04.366Z] bold_alert axe: cached
+[2026-09-14T19:15:04.366Z] bold_alert ibm: cached
+[2026-09-14T19:15:04.366Z] bold_alert htmlcs: cached
+[2026-09-14T19:15:04.366Z] bold_alert lighthouse: cached
+[2026-09-14T19:15:20.054Z] bold_button axe: ok 1
+[2026-09-14T19:15:35.156Z] bold_button ibm: ok {"ignored":0,"elements":1032,"elementsViolation":1,"elementsViolationReview":14,"violation":1,"potentialviolation":14,"recommendation":5,"potentialrecommendation":7,"manual":1,"pass":3534}
+[2026-09-14T19:15:48.614Z] bold_button htmlcs: ok 7
+[2026-09-14T19:16:15.054Z] bold_button lighthouse: ok 0.96
+[2026-09-14T19:16:30.234Z] bold_checkbox axe: ok 0
+[2026-09-14T19:16:44.757Z] bold_checkbox ibm: ok {"ignored":0,"elements":317,"elementsViolation":2,"elementsViolationReview":9,"violation":2,"potentialviolation":8,"recommendation":2,"potentialrecommendation":7,"manual":1,"pass":1567}
+[2026-09-14T19:17:00.132Z] bold_checkbox htmlcs: ok 3
+[2026-09-14T19:17:21.315Z] bold_checkbox lighthouse: ok 1
+[2026-09-14T19:17:48.702Z] bold_form axe: ok 1
+[2026-09-14T19:18:06.406Z] bold_form ibm: ok {"ignored":0,"elements":984,"elementsViolation":4,"elementsViolationReview":28,"violation":4,"potentialviolation":27,"recommendation":1,"potentialrecommendation":9,"manual":1,"pass":3310}
+[2026-09-14T19:18:23.908Z] bold_form htmlcs: ok 12
+[2026-09-14T19:20:14.694Z] bold_form lighthouse: ok 0.97
+[2026-09-14T19:20:24.734Z] bold_table axe: ok 2
+[2026-09-14T19:20:33.834Z] bold_table ibm: ok {"ignored":0,"elements":1124,"elementsViolation":22,"elementsViolationReview":33,"violation":22,"potentialviolation":12,"recommendation":4,"potentialrecommendation":7,"manual":1,"pass":4005}
+[2026-09-14T19:20:41.627Z] bold_table htmlcs: ok 26
+[2026-09-14T19:20:59.989Z] bold_table lighthouse: ok 0.92
+[2026-09-14T19:21:07.652Z] bold_a11y axe: ok 0
+[2026-09-14T19:21:14.616Z] bold_a11y ibm: ok {"ignored":0,"elements":227,"elementsViolation":1,"elementsViolationReview":5,"violation":1,"potentialviolation":4,"recommendation":1,"potentialrecommendation":7,"manual":2,"pass":1247}
+[2026-09-14T19:21:20.974Z] bold_a11y htmlcs: ok 2
+[2026-09-14T19:21:37.629Z] bold_a11y lighthouse: ok 1
+[2026-09-14T19:21:48.062Z] bold_getting_started axe: ok 2
+[2026-09-14T19:21:57.162Z] bold_getting_started ibm: ok {"ignored":0,"elements":234,"elementsViolation":1,"elementsViolationReview":8,"violation":1,"potentialviolation":9,"recommendation":1,"potentialrecommendation":7,"manual":1,"pass":1058}
+[2026-09-14T19:22:06.228Z] bold_getting_started htmlcs: ok 5
+[2026-09-14T19:23:40.943Z] bold_getting_started lighthouse: ok 0.97
+[2026-09-14T19:23:49.390Z] dsgov_home axe: ok 3
+[2026-09-14T19:23:57.214Z] dsgov_home ibm: ok {"ignored":0,"elements":296,"elementsViolation":1,"elementsViolationReview":13,"violation":2,"potentialviolation":7,"recommendation":1,"potentialrecommendation":8,"manual":8,"pass":1501}
+[2026-09-14T19:24:03.846Z] dsgov_home htmlcs: ok 3
+[2026-09-14T19:24:21.035Z] dsgov_home lighthouse: ok 0.85
+[2026-09-14T19:24:27.497Z] dsgov_a11y axe: ok 3
+[2026-09-14T19:24:35.010Z] dsgov_a11y ibm: ok {"ignored":0,"elements":330,"elementsViolation":1,"elementsViolationReview":15,"violation":2,"potentialviolation":16,"recommendation":1,"potentialrecommendation":7,"manual":1,"pass":1719}
+[2026-09-14T19:24:41.718Z] dsgov_a11y htmlcs: ok 7
+[2026-09-14T19:24:59.015Z] dsgov_a11y lighthouse: ok 0.86
+[2026-09-14T19:25:08.416Z] dsgov_button axe: ok 6
+[2026-09-14T19:25:21.259Z] dsgov_button ibm: ok {"ignored":0,"elements":1447,"elementsViolation":55,"elementsViolationReview":375,"violation":71,"potentialviolation":338,"recommendation":20,"potentialrecommendation":7,"manual":9,"pass":5624}
+[2026-09-14T19:25:30.589Z] dsgov_button htmlcs: ok 667
+[2026-09-14T19:25:49.570Z] dsgov_button lighthouse: ok 0.77
+[2026-09-14T19:25:59.287Z] dsgov_input axe: ok 7
+[2026-09-14T19:26:10.097Z] dsgov_input ibm: ok {"ignored":0,"elements":1661,"elementsViolation":50,"elementsViolationReview":494,"violation":64,"potentialviolation":460,"recommendation":19,"potentialrecommendation":23,"manual":8,"pass":6235}
+[2026-09-14T19:26:18.374Z] dsgov_input htmlcs: ok 826
+[2026-09-14T19:26:36.979Z] dsgov_input lighthouse: ok 0.74
+[2026-09-14T19:26:47.026Z] dsgov_menu axe: ok 6
+[2026-09-14T19:26:59.563Z] dsgov_menu ibm: ok {"ignored":0,"elements":2238,"elementsViolation":49,"elementsViolationReview":511,"violation":64,"potentialviolation":484,"recommendation":29,"potentialrecommendation":7,"manual":6,"pass":8037}
+[2026-09-14T19:27:08.147Z] dsgov_menu htmlcs: ok 1112
+[2026-09-14T19:27:28.771Z] dsgov_menu lighthouse: ok 0.77
+[2026-09-14T19:27:36.931Z] dsgov_message axe: ok 6
+[2026-09-14T19:27:46.260Z] dsgov_message ibm: ok {"ignored":0,"elements":1175,"elementsViolation":20,"elementsViolationReview":325,"violation":24,"potentialviolation":311,"recommendation":9,"potentialrecommendation":7,"manual":3,"pass":4323}
+[2026-09-14T19:27:53.616Z] dsgov_message htmlcs: ok 613
+[2026-09-14T19:28:11.458Z] dsgov_message lighthouse: ok 0.77
+[2026-09-14T19:28:19.272Z] dsgov_table axe: ok 7
+[2026-09-14T19:28:29.326Z] dsgov_table ibm: ok {"ignored":0,"elements":1465,"elementsViolation":57,"elementsViolationReview":371,"violation":64,"potentialviolation":324,"recommendation":14,"potentialrecommendation":9,"manual":4,"pass":5617}
+[2026-09-14T19:28:37.414Z] dsgov_table htmlcs: ok 723
+[2026-09-14T19:28:55.450Z] dsgov_table lighthouse: ok 0.74
+[2026-09-14T19:28:55.451Z] done

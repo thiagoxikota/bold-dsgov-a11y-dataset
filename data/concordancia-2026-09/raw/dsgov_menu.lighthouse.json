@@ -1,0 +1,879 @@
+{
+ "id": "dsgov_menu",
+ "url": "https://www.gov.br/ds/components/menu?tab=desenvolvedor",
+ "engine": "lighthouse",
+ "version": "12.8.2",
+ "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36",
+ "fetchTime": "2026-09-14T19:27:10.828Z",
+ "score": 0.77,
+ "auditRefs": [
+  {
+   "id": "accesskeys",
+   "weight": 0,
+   "group": "a11y-navigation"
+  },
+  {
+   "id": "aria-allowed-attr",
+   "weight": 10,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-allowed-role",
+   "weight": 1,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-command-name",
+   "weight": 0,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-conditional-attr",
+   "weight": 7,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-deprecated-role",
+   "weight": 1,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-dialog-name",
+   "weight": 0,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-hidden-body",
+   "weight": 10,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-hidden-focus",
+   "weight": 7,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-input-field-name",
+   "weight": 0,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-meter-name",
+   "weight": 0,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-progressbar-name",
+   "weight": 0,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-prohibited-attr",
+   "weight": 7,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-required-attr",
+   "weight": 10,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-required-children",
+   "weight": 10,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-required-parent",
+   "weight": 10,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-roles",
+   "weight": 7,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-text",
+   "weight": 0,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-toggle-field-name",
+   "weight": 0,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-tooltip-name",
+   "weight": 0,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-treeitem-name",
+   "weight": 0,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-valid-attr-value",
+   "weight": 10,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "aria-valid-attr",
+   "weight": 10,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "button-name",
+   "weight": 10,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "bypass",
+   "weight": 0,
+   "group": "a11y-navigation"
+  },
+  {
+   "id": "color-contrast",
+   "weight": 7,
+   "group": "a11y-color-contrast"
+  },
+  {
+   "id": "definition-list",
+   "weight": 0,
+   "group": "a11y-tables-lists"
+  },
+  {
+   "id": "dlitem",
+   "weight": 0,
+   "group": "a11y-tables-lists"
+  },
+  {
+   "id": "document-title",
+   "weight": 7,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "duplicate-id-aria",
+   "weight": 0,
+   "group": "a11y-aria"
+  },
+  {
+   "id": "form-field-multiple-labels",
+   "weight": 0,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "frame-title",
+   "weight": 7,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "heading-order",
+   "weight": 3,
+   "group": "a11y-navigation"
+  },
+  {
+   "id": "html-has-lang",
+   "weight": 7,
+   "group": "a11y-language"
+  },
+  {
+   "id": "html-lang-valid",
+   "weight": 7,
+   "group": "a11y-language"
+  },
+  {
+   "id": "html-xml-lang-mismatch",
+   "weight": 0,
+   "group": "a11y-language"
+  },
+  {
+   "id": "image-alt",
+   "weight": 10,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "image-redundant-alt",
+   "weight": 1,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "input-button-name",
+   "weight": 0,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "input-image-alt",
+   "weight": 0,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "label",
+   "weight": 7,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "link-in-text-block",
+   "weight": 7,
+   "group": "a11y-color-contrast"
+  },
+  {
+   "id": "link-name",
+   "weight": 7,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "list",
+   "weight": 7,
+   "group": "a11y-tables-lists"
+  },
+  {
+   "id": "listitem",
+   "weight": 7,
+   "group": "a11y-tables-lists"
+  },
+  {
+   "id": "meta-refresh",
+   "weight": 0,
+   "group": "a11y-best-practices"
+  },
+  {
+   "id": "meta-viewport",
+   "weight": 10,
+   "group": "a11y-best-practices"
+  },
+  {
+   "id": "object-alt",
+   "weight": 0,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "select-name",
+   "weight": 0,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "skip-link",
+   "weight": 0,
+   "group": "a11y-names-labels"
+  },
+  {
+   "id": "tabindex",
+   "weight": 7,
+   "group": "a11y-navigation"
+  },
+  {
+   "id": "table-duplicate-name",
+   "weight": 1,
+   "group": "a11y-tables-lists"
+  },
+  {
+   "id": "target-size",
+   "weight": 7,
+   "group": "a11y-best-practices"
+  },
+  {
+   "id": "td-headers-attr",
+   "weight": 7,
+   "group": "a11y-tables-lists"
+  },
+  {
+   "id": "th-has-data-cells",
+   "weight": 0,
+   "group": "a11y-tables-lists"
+  },
+  {
+   "id": "valid-lang",
+   "weight": 0,
+   "group": "a11y-language"
+  },
+  {
+   "id": "video-caption",
+   "weight": 0,
+   "group": "a11y-audio-video"
+  },
+  {
+   "id": "focusable-controls",
+   "weight": 0
+  },
+  {
+   "id": "interactive-element-affordance",
+   "weight": 0
+  },
+  {
+   "id": "logical-tab-order",
+   "weight": 0
+  },
+  {
+   "id": "visual-order-follows-dom",
+   "weight": 0
+  },
+  {
+   "id": "focus-traps",
+   "weight": 0
+  },
+  {
+   "id": "managed-focus",
+   "weight": 0
+  },
+  {
+   "id": "use-landmarks",
+   "weight": 0
+  },
+  {
+   "id": "offscreen-content-hidden",
+   "weight": 0
+  },
+  {
+   "id": "custom-controls-labels",
+   "weight": 0
+  },
+  {
+   "id": "custom-controls-roles",
+   "weight": 0
+  },
+  {
+   "id": "empty-heading",
+   "weight": 0,
+   "group": "hidden"
+  },
+  {
+   "id": "identical-links-same-purpose",
+   "weight": 0,
+   "group": "hidden"
+  },
+  {
+   "id": "landmark-one-main",
+   "weight": 0,
+   "group": "hidden"
+  },
+  {
+   "id": "label-content-name-mismatch",
+   "weight": 0,
+   "group": "hidden"
+  },
+  {
+   "id": "table-fake-caption",
+   "weight": 0,
+   "group": "hidden"
+  },
+  {
+   "id": "td-has-header",
+   "weight": 0,
+   "group": "hidden"
+  }
+ ],
+ "audits": {
+  "accesskeys": {
+   "id": "accesskeys",
+   "title": "`[accesskey]` values are unique",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "aria-allowed-attr": {
+   "id": "aria-allowed-attr",
+   "title": "`[aria-*]` attributes do not match their roles",
+   "score": 0,
+   "scoreDisplayMode": "binary",
+   "items": 1
+  },
+  "aria-allowed-role": {
+   "id": "aria-allowed-role",
+   "title": "Uses ARIA roles on incompatible elements",
+   "score": 0,
+   "scoreDisplayMode": "binary",
+   "items": 2
+  },
+  "aria-command-name": {
+   "id": "aria-command-name",
+   "title": "`button`, `link`, and `menuitem` elements have accessible names",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "aria-conditional-attr": {
+   "id": "aria-conditional-attr",
+   "title": "ARIA attributes are used as specified for the element's role",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "aria-deprecated-role": {
+   "id": "aria-deprecated-role",
+   "title": "Deprecated ARIA roles were not used",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "aria-dialog-name": {
+   "id": "aria-dialog-name",
+   "title": "Elements with `role=\"dialog\"` or `role=\"alertdialog\"` have accessible names.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "aria-hidden-body": {
+   "id": "aria-hidden-body",
+   "title": "`[aria-hidden=\"true\"]` is not present on the document `<body>`",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "aria-hidden-focus": {
+   "id": "aria-hidden-focus",
+   "title": "`[aria-hidden=\"true\"]` elements do not contain focusable descendents",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "aria-input-field-name": {
+   "id": "aria-input-field-name",
+   "title": "ARIA input fields have accessible names",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "aria-meter-name": {
+   "id": "aria-meter-name",
+   "title": "ARIA `meter` elements have accessible names",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "aria-progressbar-name": {
+   "id": "aria-progressbar-name",
+   "title": "ARIA `progressbar` elements have accessible names",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "aria-prohibited-attr": {
+   "id": "aria-prohibited-attr",
+   "title": "Elements use only permitted ARIA attributes",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "aria-required-attr": {
+   "id": "aria-required-attr",
+   "title": "`[role]`s have all required `[aria-*]` attributes",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "aria-required-children": {
+   "id": "aria-required-children",
+   "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+   "score": 0,
+   "scoreDisplayMode": "binary",
+   "items": 2
+  },
+  "aria-required-parent": {
+   "id": "aria-required-parent",
+   "title": "`[role]`s are not contained by their required parent element",
+   "score": 0,
+   "scoreDisplayMode": "binary",
+   "items": 37
+  },
+  "aria-roles": {
+   "id": "aria-roles",
+   "title": "`[role]` values are valid",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "aria-text": {
+   "id": "aria-text",
+   "title": "Elements with the `role=text` attribute do not have focusable descendents.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "aria-toggle-field-name": {
+   "id": "aria-toggle-field-name",
+   "title": "ARIA toggle fields have accessible names",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "aria-tooltip-name": {
+   "id": "aria-tooltip-name",
+   "title": "ARIA `tooltip` elements have accessible names",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "aria-treeitem-name": {
+   "id": "aria-treeitem-name",
+   "title": "ARIA `treeitem` elements have accessible names",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "aria-valid-attr-value": {
+   "id": "aria-valid-attr-value",
+   "title": "`[aria-*]` attributes have valid values",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "aria-valid-attr": {
+   "id": "aria-valid-attr",
+   "title": "`[aria-*]` attributes are valid and not misspelled",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "button-name": {
+   "id": "button-name",
+   "title": "Buttons have an accessible name",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "bypass": {
+   "id": "bypass",
+   "title": "The page contains a heading, skip link, or landmark region",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "color-contrast": {
+   "id": "color-contrast",
+   "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+   "score": 0,
+   "scoreDisplayMode": "binary",
+   "items": 80
+  },
+  "definition-list": {
+   "id": "definition-list",
+   "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "dlitem": {
+   "id": "dlitem",
+   "title": "Definition list items are wrapped in `<dl>` elements",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "document-title": {
+   "id": "document-title",
+   "title": "Document has a `<title>` element",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "duplicate-id-aria": {
+   "id": "duplicate-id-aria",
+   "title": "ARIA IDs are unique",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "empty-heading": {
+   "id": "empty-heading",
+   "title": "All heading elements contain content.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "form-field-multiple-labels": {
+   "id": "form-field-multiple-labels",
+   "title": "No form fields have multiple labels",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "frame-title": {
+   "id": "frame-title",
+   "title": "`<frame>` or `<iframe>` elements have a title",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "heading-order": {
+   "id": "heading-order",
+   "title": "Heading elements appear in a sequentially-descending order",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "html-has-lang": {
+   "id": "html-has-lang",
+   "title": "`<html>` element has a `[lang]` attribute",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "html-lang-valid": {
+   "id": "html-lang-valid",
+   "title": "`<html>` element has a valid value for its `[lang]` attribute",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "html-xml-lang-mismatch": {
+   "id": "html-xml-lang-mismatch",
+   "title": "`<html>` element has an `[xml:lang]` attribute with the same base language as the `[lang]` attribute.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "identical-links-same-purpose": {
+   "id": "identical-links-same-purpose",
+   "title": "Identical links have the same purpose.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "image-alt": {
+   "id": "image-alt",
+   "title": "Image elements have `[alt]` attributes",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "image-redundant-alt": {
+   "id": "image-redundant-alt",
+   "title": "Image elements do not have `[alt]` attributes that are redundant text.",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "input-button-name": {
+   "id": "input-button-name",
+   "title": "Input buttons have discernible text.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "input-image-alt": {
+   "id": "input-image-alt",
+   "title": "`<input type=\"image\">` elements have `[alt]` text",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "label-content-name-mismatch": {
+   "id": "label-content-name-mismatch",
+   "title": "Elements with visible text labels do not have matching accessible names.",
+   "score": 0,
+   "scoreDisplayMode": "binary",
+   "items": 15
+  },
+  "label": {
+   "id": "label",
+   "title": "Form elements have associated labels",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "landmark-one-main": {
+   "id": "landmark-one-main",
+   "title": "Document has a main landmark.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "link-name": {
+   "id": "link-name",
+   "title": "Links have a discernible name",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "link-in-text-block": {
+   "id": "link-in-text-block",
+   "title": "Links rely on color to be distinguishable.",
+   "score": 0,
+   "scoreDisplayMode": "binary",
+   "items": 2
+  },
+  "list": {
+   "id": "list",
+   "title": "Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "listitem": {
+   "id": "listitem",
+   "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+   "score": 0,
+   "scoreDisplayMode": "binary",
+   "items": 37
+  },
+  "meta-refresh": {
+   "id": "meta-refresh",
+   "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "meta-viewport": {
+   "id": "meta-viewport",
+   "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "object-alt": {
+   "id": "object-alt",
+   "title": "`<object>` elements have alternate text",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "select-name": {
+   "id": "select-name",
+   "title": "Select elements have associated label elements.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "skip-link": {
+   "id": "skip-link",
+   "title": "Skip links are focusable.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "tabindex": {
+   "id": "tabindex",
+   "title": "No element has a `[tabindex]` value greater than 0",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "table-duplicate-name": {
+   "id": "table-duplicate-name",
+   "title": "Tables have different content in the summary attribute and `<caption>`.",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "table-fake-caption": {
+   "id": "table-fake-caption",
+   "title": "Tables use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "target-size": {
+   "id": "target-size",
+   "title": "Touch targets have sufficient size and spacing.",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "td-has-header": {
+   "id": "td-has-header",
+   "title": "`<td>` elements in a large `<table>` have one or more table headers.",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "td-headers-attr": {
+   "id": "td-headers-attr",
+   "title": "Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table.",
+   "score": 1,
+   "scoreDisplayMode": "binary",
+   "items": 0
+  },
+  "th-has-data-cells": {
+   "id": "th-has-data-cells",
+   "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "valid-lang": {
+   "id": "valid-lang",
+   "title": "`[lang]` attributes have a valid value",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "video-caption": {
+   "id": "video-caption",
+   "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+   "score": null,
+   "scoreDisplayMode": "notApplicable",
+   "items": null
+  },
+  "custom-controls-labels": {
+   "id": "custom-controls-labels",
+   "title": "Custom controls have associated labels",
+   "score": null,
+   "scoreDisplayMode": "manual",
+   "items": null
+  },
+  "custom-controls-roles": {
+   "id": "custom-controls-roles",
+   "title": "Custom controls have ARIA roles",
+   "score": null,
+   "scoreDisplayMode": "manual",
+   "items": null
+  },
+  "focus-traps": {
+   "id": "focus-traps",
+   "title": "User focus is not accidentally trapped in a region",
+   "score": null,
+   "scoreDisplayMode": "manual",
+   "items": null
+  },
+  "focusable-controls": {
+   "id": "focusable-controls",
+   "title": "Interactive controls are keyboard focusable",
+   "score": null,
+   "scoreDisplayMode": "manual",
+   "items": null
+  },
+  "interactive-element-affordance": {
+   "id": "interactive-element-affordance",
+   "title": "Interactive elements indicate their purpose and state",
+   "score": null,
+   "scoreDisplayMode": "manual",
+   "items": null
+  },
+  "logical-tab-order": {
+   "id": "logical-tab-order",
+   "title": "The page has a logical tab order",
+   "score": null,
+   "scoreDisplayMode": "manual",
+   "items": null
+  },
+  "managed-focus": {
+   "id": "managed-focus",
+   "title": "The user's focus is directed to new content added to the page",
+   "score": null,
+   "scoreDisplayMode": "manual",
+   "items": null
+  },
+  "offscreen-content-hidden": {
+   "id": "offscreen-content-hidden",
+   "title": "Offscreen content is hidden from assistive technology",
+   "score": null,
+   "scoreDisplayMode": "manual",
+   "items": null
+  },
+  "use-landmarks": {
+   "id": "use-landmarks",
+   "title": "HTML5 landmark elements are used to improve navigation",
+   "score": null,
+   "scoreDisplayMode": "manual",
+   "items": null
+  },
+  "visual-order-follows-dom": {
+   "id": "visual-order-follows-dom",
+   "title": "Visual order on the page follows DOM order",
+   "score": null,
+   "scoreDisplayMode": "manual",
+   "items": null
+  }
+ }
+}

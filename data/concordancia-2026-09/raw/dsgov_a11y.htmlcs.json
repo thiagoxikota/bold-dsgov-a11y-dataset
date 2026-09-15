@@ -1,0 +1,2220 @@
+{
+ "id": "dsgov_a11y",
+ "url": "https://www.gov.br/ds/acessibilidade",
+ "engine": "html_codesniffer",
+ "version": "2.5.1",
+ "pa11y": "8.0.0",
+ "documentTitle": "Padrão Digital de Governo - Acessibilidade",
+ "issues": [
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_2.H25.2",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the title element describes the document.",
+   "context": "<title>Padrão Digital de Governo - Ace...</title>",
+   "selector": "html > head > title",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+   "type": "warning",
+   "typeCode": 2,
+   "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+   "context": "<link rel=\"mask-icon\" href=\"/ds/assets/favicons/safari-pinned-tab.svg\" color=\"#00a300\">",
+   "selector": "html > head > link:nth-child(22)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c37=\"\" href=\"https://www.gov.br/\"><img _ngcontent-hvv-c37=\"\" src=...</a>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+   "context": "<img _ngcontent-hvv-c37=\"\" src=\"assets/img/govbr-logo.png\" alt=\"logo\">",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(1) > a > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+   "context": "<img _ngcontent-hvv-c37=\"\" src=\"assets/img/govbr-logo.png\" alt=\"logo\">",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(1) > a > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<button _ngcontent-hvv-c37=\"\" type=\"button\" data-toggle=\"dropdown\" aria-label=\"Abrir Acesso Rápido\" class=\"br-button circle small\"><i _ngcontent-hvv-c37=\"\" aria-h...</button>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > button",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H48",
+   "type": "warning",
+   "typeCode": 2,
+   "message": "If this element contains a navigation section, it is recommended that it be marked up as a list.",
+   "context": "<div _ngcontent-hvv-c37=\"\" class=\"br-list\"><div _ngcontent-hvv-c37=\"\" clas...</div>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c37=\"\" href=\"/ds/introducao/comunidade\" class=\"br-item\"><i _ngcontent-hvv-c37=\"\" aria-h...</a>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > a:nth-child(2)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c37=\"\" href=\"/ds/introducao/padrao-minimo\" class=\"br-item\"><i _ngcontent-hvv-c37=\"\" aria-h...</a>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > a:nth-child(3)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c37=\"\" href=\"https://webcomponent-ds.estaleiro.serpro.gov.br/?path=/story/introdu%C3%A7%C3%A3o--page\" target=\"_blank\" class=\"br-item\"><i _ngcontent-hvv-c37=\"\" class=...</a>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > a:nth-child(4)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<button _ngcontent-hvv-c37=\"\" type=\"button\" data-toggle=\"dropdown\" aria-label=\"Abrir Comunidade\" class=\"br-button circle small\"><i _ngcontent-hvv-c37=\"\" aria-h...</button>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > button",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c37=\"\" href=\"https://gov.br/ds/wiki/\" target=\"_blank\" type=\"button\" aria-label=\"Wiki\" data-tooltip-target=\"#tp-wiki\" class=\"br-button circle small\"><img _ngcontent-hvv-c37=\"\" src=...</a>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+   "context": "<img _ngcontent-hvv-c37=\"\" src=\"assets/img/ico-wiki.svg\" alt=\"Link da Wiki\" class=\"img-fluid\">",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > a > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+   "context": "<img _ngcontent-hvv-c37=\"\" src=\"assets/img/ico-wiki.svg\" alt=\"Link da Wiki\" class=\"img-fluid\">",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > a > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+   "type": "error",
+   "typeCode": 1,
+   "message": "Duplicate id attribute value \"tp-wiki\" found on the web page.",
+   "context": "<div _ngcontent-hvv-c26=\"\" role=\"tooltip\" data-toggle=\"tooltip\" class=\"br-tooltip\" id=\"tp-wiki\" place=\"top\" style=\"position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(-80px, 48px);\" data-popper-placement=\"bottom\"><span _ng...",
+   "selector": "#tp-wiki",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c37=\"\" type=\"button\" aria-label=\"GitLab\" target=\"_blank\" href=\"https://gitlab.com/govbr-ds/ds/dev/govbr-ds-dev-core\" data-tooltip-target=\"#tp-gitlab\" class=\"br-button circle small\"><img _ngcontent-hvv-c37=\"\" src=...</a>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(3) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+   "context": "<img _ngcontent-hvv-c37=\"\" src=\"assets/img/ico-gitlab.svg\" alt=\"Link do GitLab\" class=\"img-fluid\">",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(3) > a > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+   "context": "<img _ngcontent-hvv-c37=\"\" src=\"assets/img/ico-gitlab.svg\" alt=\"Link do GitLab\" class=\"img-fluid\">",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(3) > a > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+   "type": "error",
+   "typeCode": 1,
+   "message": "Duplicate id attribute value \"tp-gitlab\" found on the web page.",
+   "context": "<div _ngcontent-hvv-c26=\"\" role=\"tooltip\" data-toggle=\"tooltip\" class=\"br-tooltip\" id=\"tp-gitlab\" place=\"top\" style=\"position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(-107px, 48px);\" data-popper-placement=\"bottom\"><span ...",
+   "selector": "#tp-gitlab",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c37=\"\" type=\"button\" aria-label=\"Discord\" target=\"_blank\" href=\"https://discord.gg/NkaVZERAT7\" data-tooltip-target=\"#tp-discord\" class=\"br-button circle small\"><img _ngcontent-hvv-c37=\"\" src=...</a>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(4) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+   "context": "<img _ngcontent-hvv-c37=\"\" src=\"assets/img/ico-discord.svg\" alt=\"Link do Discord\" class=\"img-fluid\">",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(4) > a > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+   "context": "<img _ngcontent-hvv-c37=\"\" src=\"assets/img/ico-discord.svg\" alt=\"Link do Discord\" class=\"img-fluid\">",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(4) > a > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+   "type": "error",
+   "typeCode": 1,
+   "message": "Duplicate id attribute value \"tp-discord\" found on the web page.",
+   "context": "<div _ngcontent-hvv-c26=\"\" role=\"tooltip\" data-toggle=\"tooltip\" class=\"br-tooltip\" id=\"tp-discord\" place=\"top\" style=\"position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-24px, -2px);\" data-popper-placement=\"left\"><span _n...",
+   "selector": "#tp-discord",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<button _ngcontent-hvv-c37=\"\" type=\"button\" aria-label=\"Abrir Busca\" data-toggle=\"search\" data-target=\".header-search\" class=\"br-button circle\"><i _ngcontent-hvv-c37=\"\" aria-h...</button>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > button",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<button _ngcontent-hvv-c37=\"\" type=\"button\" aria-label=\"Menu principal modo 2\" data-toggle=\"menu\" data-target=\"#navigation\" class=\"br-button circle small\"><i _ngcontent-hvv-c37=\"\" aria-h...</button>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(2) > div > div:nth-child(1) > button",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c37=\"\" href=\"/ds/home\">Padrão Digital de Governo</a>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42",
+   "type": "warning",
+   "typeCode": 2,
+   "message": "Heading markup should be used if this content is intended as a heading.",
+   "context": "<div _ngcontent-hvv-c36=\"\" class=\"input-icon\"><i _ngcontent-hvv-c36=\"\" aria-h...</div>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(2) > ais-instantsearch > br-search > div > div > div:nth-child(2)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_5.H98",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the input field serves a purpose identified in the Input Purposes for User Interface Components section; and that the content is implemented using technologies with support for identifying the expected meaning for form input data.",
+   "context": "<input _ngcontent-hvv-c36=\"\" id=\"searchbox\" type=\"text\" placeholder=\"O que você procura?\" submittitle=\"Pesquisar\" resettitle=\"Limpar\" autocomplete=\"off\" aria-autocomplete=\"list\">",
+   "selector": "#searchbox",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<input _ngcontent-hvv-c36=\"\" id=\"searchbox\" type=\"text\" placeholder=\"O que você procura?\" submittitle=\"Pesquisar\" resettitle=\"Limpar\" autocomplete=\"off\" aria-autocomplete=\"list\">",
+   "selector": "#searchbox",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<button _ngcontent-hvv-c36=\"\" type=\"button\" aria-label=\"Fechar Busca\" data-dismiss=\"search\" class=\"br-button circle search-close ml-1\"><i _ngcontent-hvv-c36=\"\" aria-h...</button>",
+   "selector": "html > body > br-root > br-header > header > div > div:nth-child(2) > ais-instantsearch > br-search > div > button",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"home\" class=\"menu-item divider\" href=\"/ds/home\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#home",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"introducao\" href=\"javascript: void(0)\" class=\"menu-item\" aria-expanded=\"false\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#introducao",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/introducao/sobre\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-introducao > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/introducao/principios\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-introducao > ul > li:nth-child(2) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/introducao/padrao-minimo\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-introducao > ul > li:nth-child(3) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/introducao/o-que-ha-de-novo\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-introducao > ul > li:nth-child(4) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/introducao/comunidade\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-introducao > ul > li:nth-child(5) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"como-comecar\" href=\"javascript: void(0)\" class=\"menu-item\" aria-expanded=\"false\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#como-comecar",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/como-comecar/introducao\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-como-comecar > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/como-comecar/fluxo-criacao\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-como-comecar > ul > li:nth-child(2) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/como-comecar/fluxo-dev\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-como-comecar > ul > li:nth-child(3) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"acessibilidade\" class=\"menu-item divider active\" href=\"/ds/acessibilidade\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#acessibilidade",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"downloads\" class=\"menu-item divider\" href=\"/ds/downloads/assets\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#downloads",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"fundamentos-visuais\" href=\"javascript: void(0)\" class=\"menu-item\" aria-expanded=\"false\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#fundamentos-visuais",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/visao-geral\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/cores\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(2) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/iconografia\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(3) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/espacamento\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(4) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/estados\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(5) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/ilustracao\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(6) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/grid\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(7) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/superficie\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(8) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/elevacao\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(9) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/movimento\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(10) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/fundamentos-visuais/tipografia\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-fundamentos-visuais > ul > li:nth-child(11) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"padroes\" href=\"javascript: void(0)\" class=\"menu-item\" aria-expanded=\"false\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#padroes",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/visao-geral\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"design\" href=\"javascript: void(0)\" class=\"menu-item\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\" aria-expanded=\"false\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#design",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/design/ajuda-comunicacao\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(2) > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/design/densidade\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(2) > ul > li:nth-child(2) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/design/contentoverflow\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(2) > ul > li:nth-child(3) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/design/dropdown\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(2) > ul > li:nth-child(4) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/design/formulario\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(2) > ul > li:nth-child(5) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/design/grafico\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(2) > ul > li:nth-child(6) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/design/onboarding\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(2) > ul > li:nth-child(7) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/design/collapse\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(2) > ul > li:nth-child(8) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/design/navegacao\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(2) > ul > li:nth-child(9) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/design/emptystates\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(2) > ul > li:nth-child(10) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"mobile\" href=\"javascript: void(0)\" class=\"menu-item\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\" aria-expanded=\"false\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#mobile",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/mobile/android-e-ios\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(3) > ul > li > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"writing\" href=\"javascript: void(0)\" class=\"menu-item\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\" aria-expanded=\"false\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#writing",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/writing/principios-writing\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(4) > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/padroes/writing/microcopy\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-padroes > ul > li:nth-child(4) > ul > li:nth-child(2) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"components\" href=\"javascript: void(0)\" class=\"menu-item\" aria-expanded=\"false\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#components",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/visao-geral\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/accordion\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(2) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/avatar\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(3) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/breadcrumb\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(4) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/button\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(5) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/card\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(6) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/carousel\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(7) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/checkbox\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(8) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/cookiebar\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(9) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/datetimepicker\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(10) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/divider\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(11) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/footer\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(12) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/header\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(13) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/input\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(14) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/item\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(15) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/list\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(16) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/loading\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(17) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/magicbutton\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(18) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/menu\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(19) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/message\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(20) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/modal\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(21) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/notification\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(22) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/pagination\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(23) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/radio\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(24) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/scrim\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(25) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/select\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(26) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/signin\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(27) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/skiplink\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(28) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/step\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(29) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/switch\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(30) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/tab\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(31) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/table\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(32) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/tag\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(33) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/textarea\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(34) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/tooltip\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(35) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/upload\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(36) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/components/wizard\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-componentes > ul > li:nth-child(37) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"templates\" href=\"javascript: void(0)\" class=\"menu-item\" aria-expanded=\"false\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#templates",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/templates/visao-geral\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-templates > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/templates/base\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-templates > ul > li:nth-child(2) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/templates/erro\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-templates > ul > li:nth-child(3) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"utilitarios\" href=\"javascript: void(0)\" class=\"menu-item\" aria-expanded=\"false\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#utilitarios",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/utilitarios/visao-geral\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-utilitarios > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"js\" href=\"javascript: void(0)\" class=\"menu-item\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\" aria-expanded=\"false\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#js",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/utilitarios/js/accordion\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-utilitarios > ul > li:nth-child(2) > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/utilitarios/js/checkgroup\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-utilitarios > ul > li:nth-child(2) > ul > li:nth-child(2) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/utilitarios/js/collapse\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-utilitarios > ul > li:nth-child(2) > ul > li:nth-child(3) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/utilitarios/js/dropdown\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-utilitarios > ul > li:nth-child(2) > ul > li:nth-child(4) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/utilitarios/js/scrim\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-utilitarios > ul > li:nth-child(2) > ul > li:nth-child(5) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/utilitarios/js/tooltip\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-utilitarios > ul > li:nth-child(2) > ul > li:nth-child(6) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"guias\" href=\"javascript: void(0)\" class=\"menu-item\" aria-expanded=\"false\" data-click-listener=\"true\" role=\"treeitem\" aria-haspopup=\"true\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#guias",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/guias/visao-geral\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-guias > ul > li:nth-child(1) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/guias/boas-praticas-de-css\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-guias > ul > li:nth-child(2) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/guias/boas-praticas-de-html\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-guias > ul > li:nth-child(3) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/guias/acessibilidade-html\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-guias > ul > li:nth-child(4) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/guias/codificacao-javascript\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-guias > ul > li:nth-child(5) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/guias/codificacao-sass\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-guias > ul > li:nth-child(6) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/guias/wai-aria\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-guias > ul > li:nth-child(7) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/guias/navegadores-suportados\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-guias > ul > li:nth-child(8) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/guias/construcao-de-componentes\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-guias > ul > li:nth-child(9) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" class=\"menu-item\" href=\"/ds/guias/migracao-2x-3x\" role=\"treeitem\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#menu-guias > ul > li:nth-child(10) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"legislacao\" class=\"menu-item divider\" href=\"/ds/downloads/legislacao\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#legislacao",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c38=\"\" id=\"releasenotes\" class=\"menu-item divider\" href=\"/ds/release-notes\"><span _ngcontent-hvv-c38=\"\" cla...</a>",
+   "selector": "#releasenotes",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+   "type": "error",
+   "typeCode": 1,
+   "message": "Duplicate id attribute value \"acessibilidade\" found on the web page.",
+   "context": "<h1 id=\"acessibilidade\">Acessibilidade<a class=\"md-anch...</h1>",
+   "selector": "#acessibilidade",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção Acessibilidade\" href=\"/ds/acessibilidade?tab=visao-geral#acessibilidade\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#acessibilidade > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção Tipos de deficiências\" href=\"/ds/acessibilidade?tab=visao-geral#tipos-de-deficiencias\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#tipos-de-deficiencias > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção Tecnologia Assistiva\" href=\"/ds/acessibilidade?tab=visao-geral#tecnologia-assistiva\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#tecnologia-assistiva > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção Padrões de acessibilidade\" href=\"/ds/acessibilidade?tab=visao-geral#padroes-de-acessibilidade\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#padroes-de-acessibilidade > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+   "context": "<img src=\"https://docs-ds.estaleiro.serpro.gov.br/govbr-ds/ds/acessibilidade/imagens/Figura1.jpg\" alt=\"Figura 1\">",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > markdown > p:nth-child(16) > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+   "context": "<img src=\"https://docs-ds.estaleiro.serpro.gov.br/govbr-ds/ds/acessibilidade/imagens/Figura1.jpg\" alt=\"Figura 1\">",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > markdown > p:nth-child(16) > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção 1. Perceptível\" href=\"/ds/acessibilidade?tab=visao-geral#1-perceptivel\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#1-perceptivel > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção 2. Operável\" href=\"/ds/acessibilidade?tab=visao-geral#2-operavel\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#2-operavel > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção 3. Compreensível\" href=\"/ds/acessibilidade?tab=visao-geral#3-compreensivel\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#3-compreensivel > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção 4. Robusto\" href=\"/ds/acessibilidade?tab=visao-geral#4-robusto\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#4-robusto > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção Níveis de Conformidade\" href=\"/ds/acessibilidade?tab=visao-geral#niveis-de-conformidade\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#niveis-de-conformidade > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção Avaliar a acessibilidade\" href=\"/ds/acessibilidade?tab=visao-geral#avaliar-a-acessibilidade\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#avaliar-a-acessibilidade > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção Acessibilidade nos serviços do Governo\" href=\"/ds/acessibilidade?tab=visao-geral#acessibilidade-nos-servicos-do-governo\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#acessibilidade-nos-servicos-do-governo > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção Recursos de Acessibilidade no Design System\" href=\"/ds/acessibilidade?tab=visao-geral#recursos-de-acessibilidade-no-design-system\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#recursos-de-acessibilidade-no-design-system > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a href=\"https://www.gov.br/ds/introduca...\">https://www.gov.br/ds/introducao/principios</a>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > markdown > ul:nth-child(40) > li:nth-child(1) > p > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a href=\"https://www.gov.br/ds/guias/ace...\">https://www.gov.br/ds/guias/acessibilidade-html</a>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > markdown > ul:nth-child(40) > li:nth-child(2) > p > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a href=\"https://www.gov.br/ds/guias/wai...\">https://www.gov.br/ds/guias/wai-aria</a>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > markdown > ul:nth-child(40) > li:nth-child(3) > p > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a href=\"https://gov.br/ds/wiki/acessibi...\">https://gov.br/ds/wiki/acessibilidade/</a>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > markdown > ul:nth-child(40) > li:nth-child(4) > p > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a class=\"md-anchor\" aria-label=\"Link para seção Referências\" href=\"/ds/acessibilidade?tab=visao-geral#referencias\" data-copy-listener=\"true\"><i class=\"fas fa-link\" aria-hid...</a>",
+   "selector": "#referencias > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a href=\"https://www.planalto.gov.br/cci...\">https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm</a>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > markdown > p:nth-child(42) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a href=\"https://www.planalto.gov.br/cci...\">https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm</a>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > markdown > p:nth-child(43) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a href=\"https://www.ibge.gov.br/estatis...\">https://www.ibge.gov.br/estatisticas/sociais/rendimento-despesa-e-consumo/9662-censo-demografico-2010.html</a>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > markdown > p:nth-child(44) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a href=\"http://www.handtalk.me/br/blog/wcag-2-...\">www.handtalk.me/br/blog/wcag-2-0/&gt;</a>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > markdown > p:nth-child(45) > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42",
+   "type": "warning",
+   "typeCode": 2,
+   "message": "Heading markup should be used if this content is intended as a heading.",
+   "context": "<div _ngcontent-hvv-c29=\"\" aria-label=\"Icone de sucesso\" class=\"icon\"><i _ngcontent-hvv-c29=\"\" aria-h...</div>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(1) > div > div:nth-child(1)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42",
+   "type": "warning",
+   "typeCode": 2,
+   "message": "Heading markup should be used if this content is intended as a heading.",
+   "context": "<p _ngcontent-hvv-c29=\"\"><strong _ngcontent-hvv-c29=\"\">O...</p>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(1) > div > div:nth-child(2) > p",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42",
+   "type": "warning",
+   "typeCode": 2,
+   "message": "Heading markup should be used if this content is intended as a heading.",
+   "context": "<div _ngcontent-hvv-c29=\"\" aria-label=\"Icone de erro\" class=\"icon\"><i _ngcontent-hvv-c29=\"\" aria-h...</div>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(2) > div > div:nth-child(1)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42",
+   "type": "warning",
+   "typeCode": 2,
+   "message": "Heading markup should be used if this content is intended as a heading.",
+   "context": "<p _ngcontent-hvv-c29=\"\"><strong _ngcontent-hvv-c29=\"\">S...</p>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(2) > div > div:nth-child(2) > p",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<button _ngcontent-hvv-c29=\"\" type=\"button\" data-toggle=\"dropdown\" aria-label=\"Avaliar positivamente\" class=\"br-button circle small\"><i _ngcontent-hvv-c29=\"\" aria-h...</button>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(3) > div:nth-child(1) > button:nth-child(2)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<button _ngcontent-hvv-c29=\"\" type=\"button\" data-toggle=\"dropdown\" aria-label=\"Avaliar negativamente\" class=\"br-button circle small\"><i _ngcontent-hvv-c29=\"\" aria-h...</button>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(3) > div:nth-child(1) > button:nth-child(3)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.SameName",
+   "type": "warning",
+   "typeCode": 2,
+   "message": "If these radio buttons or check boxes require a further group-level description, they should be contained within a fieldset element.",
+   "context": "<form _ngcontent-hvv-c29=\"\" novalidate=\"\" class=\"ng-untouched ng-pristine ng-valid\"><div _ngcontent-hvv-c29=\"\" clas...</form>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(3) > div:nth-child(2) > form",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+   "type": "error",
+   "typeCode": 1,
+   "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+   "context": "<form _ngcontent-hvv-c29=\"\" novalidate=\"\" class=\"ng-untouched ng-pristine ng-valid\"><div _ngcontent-hvv-c29=\"\" clas...</form>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(3) > div:nth-child(2) > form",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_3.3_3_1.G83,G84,G85",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If an input error is automatically detected in this form, check that the item(s) in error are identified and the error(s) are described to the user in text.",
+   "context": "<form _ngcontent-hvv-c29=\"\" novalidate=\"\" class=\"ng-untouched ng-pristine ng-valid\"><div _ngcontent-hvv-c29=\"\" clas...</form>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(3) > div:nth-child(2) > form",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_3.3_3_2.G131,G89,G184,H90",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that descriptive labels or instructions (including for required fields) are provided for user input in this form.",
+   "context": "<form _ngcontent-hvv-c29=\"\" novalidate=\"\" class=\"ng-untouched ng-pristine ng-valid\"><div _ngcontent-hvv-c29=\"\" clas...</form>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(3) > div:nth-child(2) > form",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_3.3_3_3.G177",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that this form provides suggested corrections to errors in user input, unless it would jeopardize the security or purpose of the content.",
+   "context": "<form _ngcontent-hvv-c29=\"\" novalidate=\"\" class=\"ng-untouched ng-pristine ng-valid\"><div _ngcontent-hvv-c29=\"\" clas...</form>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(3) > div:nth-child(2) > form",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_3.3_3_4.G98,G99,G155,G164,G168.LegalForms",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If this form would bind a user to a financial or legal commitment, modify/delete user-controllable data, or submit test responses, ensure that submissions are either reversible, checked for input errors, and/or confirmed by the user.",
+   "context": "<form _ngcontent-hvv-c29=\"\" novalidate=\"\" class=\"ng-untouched ng-pristine ng-valid\"><div _ngcontent-hvv-c29=\"\" clas...</form>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(3) > div:nth-child(2) > form",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_5.H98",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the input field serves a purpose identified in the Input Purposes for User Interface Components section; and that the content is implemented using technologies with support for identifying the expected meaning for form input data.",
+   "context": "<input _ngcontent-hvv-c29=\"\" type=\"radio\" name=\"opcoes\" formcontrolname=\"opcoes\" id=\"op-1\" class=\"ng-untouched ng-pristine ng-valid\">",
+   "selector": "#op-1",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<input _ngcontent-hvv-c29=\"\" type=\"radio\" name=\"opcoes\" formcontrolname=\"opcoes\" id=\"op-1\" class=\"ng-untouched ng-pristine ng-valid\">",
+   "selector": "#op-1",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_5.H98",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the input field serves a purpose identified in the Input Purposes for User Interface Components section; and that the content is implemented using technologies with support for identifying the expected meaning for form input data.",
+   "context": "<input _ngcontent-hvv-c29=\"\" type=\"radio\" name=\"opcoes\" formcontrolname=\"opcoes\" id=\"op-2\" class=\"ng-untouched ng-pristine ng-valid\">",
+   "selector": "#op-2",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<input _ngcontent-hvv-c29=\"\" type=\"radio\" name=\"opcoes\" formcontrolname=\"opcoes\" id=\"op-2\" class=\"ng-untouched ng-pristine ng-valid\">",
+   "selector": "#op-2",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_5.H98",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the input field serves a purpose identified in the Input Purposes for User Interface Components section; and that the content is implemented using technologies with support for identifying the expected meaning for form input data.",
+   "context": "<input _ngcontent-hvv-c29=\"\" type=\"radio\" name=\"opcoes\" formcontrolname=\"opcoes\" id=\"op-3\" class=\"ng-untouched ng-pristine ng-valid\">",
+   "selector": "#op-3",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<input _ngcontent-hvv-c29=\"\" type=\"radio\" name=\"opcoes\" formcontrolname=\"opcoes\" id=\"op-3\" class=\"ng-untouched ng-pristine ng-valid\">",
+   "selector": "#op-3",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_5.H98",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the input field serves a purpose identified in the Input Purposes for User Interface Components section; and that the content is implemented using technologies with support for identifying the expected meaning for form input data.",
+   "context": "<input _ngcontent-hvv-c29=\"\" type=\"radio\" name=\"opcoes\" formcontrolname=\"opcoes\" id=\"op-4\" class=\"ng-untouched ng-pristine ng-valid\">",
+   "selector": "#op-4",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<input _ngcontent-hvv-c29=\"\" type=\"radio\" name=\"opcoes\" formcontrolname=\"opcoes\" id=\"op-4\" class=\"ng-untouched ng-pristine ng-valid\">",
+   "selector": "#op-4",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+   "type": "error",
+   "typeCode": 1,
+   "message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+   "context": "<textarea _ngcontent-hvv-c29=\"\" id=\"feedbackcommen2\" name=\"feedbackcomment\" placeholder=\"Descreva mais detalhes (opcional)\" formcontrolname=\"feedbackcomment\" class=\"ng-untouched ng-pristine ng-valid\"></textarea>",
+   "selector": "#feedbackcommen2",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+   "type": "error",
+   "typeCode": 1,
+   "message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+   "context": "<textarea _ngcontent-hvv-c29=\"\" id=\"feedbackcommen2\" name=\"feedbackcomment\" placeholder=\"Descreva mais detalhes (opcional)\" formcontrolname=\"feedbackcomment\" class=\"ng-untouched ng-pristine ng-valid\"></textarea>",
+   "selector": "#feedbackcommen2",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_5.H98",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the input field serves a purpose identified in the Input Purposes for User Interface Components section; and that the content is implemented using technologies with support for identifying the expected meaning for form input data.",
+   "context": "<textarea _ngcontent-hvv-c29=\"\" id=\"feedbackcommen2\" name=\"feedbackcomment\" placeholder=\"Descreva mais detalhes (opcional)\" formcontrolname=\"feedbackcomment\" class=\"ng-untouched ng-pristine ng-valid\"></textarea>",
+   "selector": "#feedbackcommen2",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_5.H98",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "This element does not have an autocomplete attribute. If this field collects information about the user, consider adding one to comply with this Success Criterion.",
+   "context": "<textarea _ngcontent-hvv-c29=\"\" id=\"feedbackcommen2\" name=\"feedbackcomment\" placeholder=\"Descreva mais detalhes (opcional)\" formcontrolname=\"feedbackcomment\" class=\"ng-untouched ng-pristine ng-valid\"></textarea>",
+   "selector": "#feedbackcommen2",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<textarea _ngcontent-hvv-c29=\"\" id=\"feedbackcommen2\" name=\"feedbackcomment\" placeholder=\"Descreva mais detalhes (opcional)\" formcontrolname=\"feedbackcomment\" class=\"ng-untouched ng-pristine ng-valid\"></textarea>",
+   "selector": "#feedbackcommen2",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<button _ngcontent-hvv-c29=\"\" type=\"button\" click=\"\" class=\"br-button primary mr-3\"> Enviar </button>",
+   "selector": "html > body > br-root > main > div > div > div > br-content > div > br-avaliacao > div > div:nth-child(3) > div:nth-child(2) > form > div:nth-child(6) > button",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c34=\"\" href=\"https://www.gov.br/pt-br\" target=\"_blank\"><img _ngcontent-hvv-c34=\"\" alt=...</a>",
+   "selector": "html > body > br-root > br-footer > footer > div:nth-child(1) > div > a",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+   "context": "<img _ngcontent-hvv-c34=\"\" alt=\"Gov.br\" src=\"data:image/svg+xml,%3Csvg id='Camada_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 374.8 135' style='enable-background:new 0 0 374.8 135;' xm...",
+   "selector": "html > body > br-root > br-footer > footer > div:nth-child(1) > div > a > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+   "context": "<img _ngcontent-hvv-c34=\"\" alt=\"Gov.br\" src=\"data:image/svg+xml,%3Csvg id='Camada_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 374.8 135' style='enable-background:new 0 0 374.8 135;' xm...",
+   "selector": "html > body > br-root > br-footer > footer > div:nth-child(1) > div > a > img",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H48",
+   "type": "warning",
+   "typeCode": 2,
+   "message": "If this element contains a navigation section, it is recommended that it be marked up as a list.",
+   "context": "<div _ngcontent-hvv-c34=\"\" class=\"text-down-01 text-medium pb-3 text-center\"> O Padrão Digital de Governo ut...</div>",
+   "selector": "html > body > br-root > br-footer > footer > div:nth-child(3) > div > div",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c34=\"\" href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\">CC0 1.0 Universal</a>",
+   "selector": "html > body > br-root > br-footer > footer > div:nth-child(3) > div > div > a:nth-child(1)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+   "context": "<a _ngcontent-hvv-c34=\"\" href=\"https://mit-license.org/\" target=\"_blank\">MIT</a>",
+   "selector": "html > body > br-root > br-footer > footer > div:nth-child(3) > div > div > a:nth-child(2)",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
+   "type": "warning",
+   "typeCode": 2,
+   "message": "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
+   "context": "<div _ngcontent-hvv-c39=\"\" class=\"scroll-to-top\"><button _ngcontent-hvv-c39=\"\" t...</div>",
+   "selector": "html > body > br-root > br-scroll-top > div",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that a change of context does not occur when this input field receives focus.",
+   "context": "<button _ngcontent-hvv-c39=\"\" type=\"button\" aria-label=\"Ir para o topo\" class=\"br-button primary circle\"><i _ngcontent-hvv-c39=\"\" aria-h...</button>",
+   "selector": "html > body > br-root > br-scroll-top > div > button",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_2.G57",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the content is ordered in a meaningful sequence when linearised, such as when style sheets are disabled.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_3.G96",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Where instructions are provided for understanding the content, do not rely on sensory characteristics alone (such as shape, size or location) to describe objects.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_3.1_3_4.",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_4.1_4_1.G14,G182",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that any information conveyed using colour alone is also available in text, or through other visual cues.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_4.1_4_4.G142",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that text can be resized without assistive technology up to 200 percent without loss of content or functionality.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_4.1_4_5.G140,C22,C30.AALevel",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If the technologies being used can achieve the visual presentation, check that text is used to convey information rather than images of text, except when the image of text is essential to the information being conveyed, or can be visually customised to the user's requirements.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:     Vertical scrolling content at a width equivalent to 320 CSS pixels;     Horizontal scrolling content at a height equivalent to 256 CSS pixels;     Except for parts of the content which require two-dimensional layout for usage or meaning.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_4.1_4_11.G195,G207,G18,G145,G174,F78",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that the visual presentation of the following have a contrast ratio of at least 3:1 against adjacent color(s):     User Interface Components: Visual information required to identify user interface components and states, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;     Graphical Objects: Parts of graphics required to understand the content, except when a particular presentation of graphics is essential to the information being conveyed.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_4.1_4_12.C36,C35",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that no loss of content or functionality occurs by setting all of the following and by changing no other style property:              Line height (line spacing) to at least 1.5 times the font size;         Spacing following paragraphs to at least 2 times the font size;         Letter spacing (tracking) to at least 0.12 times the font size;         Word spacing to at least 0.16 times the font size.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle1.Guideline1_4.1_4_13.F95",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:              Dismissable: A mechanism is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content;         Hoverable: If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;         Persistent: The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_1.2_1_4.",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that if a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:              Turn off: A mechanism is available to turn the shortcut off;         Remap: A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc);         Active only on focus: The keyboard shortcut for a user interface component is only active when that component has focus.     ",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_2.2_2_2.SCR33,SCR22,G187,G152,G186,G191",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If any part of the content moves, scrolls or blinks for more than 5 seconds, or auto-updates, check that there is a mechanism available to pause, stop, or hide the content.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_3.2_3_1.G19,G176",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that no component of the content flashes more than three times in any 1-second period, or that the size of any flashing area is sufficiently small.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124,H69",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Ensure that any common navigation elements can be bypassed; for instance, by use of skip links, header elements, or ARIA landmark roles.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_3.H4.2",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If tabindex is used, check that the tab order specified by the tabindex attributes follows relationships in the content.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_5.G125,G64,G63,G161,G126,G185",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "If this Web page is not part of a linear process, check that there is more than one way of locating this Web page within a set of Web pages.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_6.G130,G131",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that headings and labels describe topic or purpose.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_4.2_4_7.G149,G165,G195,C15,SCR31",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that there is at least one mode of operation where the keyboard focus indicator can be visually located on user interface controls.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_5.2_5_1.",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that all functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_5.2_5_2.",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that for functionality that can be operated using a single pointer, at least one of the following is true:         No Down-Event: The down-event of the pointer is not used to execute any part of the function;         Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;         Up Reversal: The up-event reverses any outcome of the preceding down-event;         Essential: Completing the function on the down-event is essential.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_5.2_5_3.F96",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that for user interface components with labels that include text or images of text, the name contains the text that is presented visually.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle2.Guideline2_5.2_5_4.",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when:              Supported Interface: The motion is used to operate functionality through an accessibility supported interface;         Essential: The motion is essential for the function and doing so would invalidate the activity.     ",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_1.3_1_2.H58",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Ensure that any change in language is marked using the lang and/or xml:lang attribute on an element, as appropriate.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_3.G61",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that navigational mechanisms that are repeated on multiple Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle3.Guideline3_2.3_2_4.G197",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that components that have the same functionality within this Web page are identified consistently in the set of Web pages to which it belongs.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  },
+  {
+   "code": "WCAG2AA.Principle4.Guideline4_1.4_1_3.",
+   "type": "notice",
+   "typeCode": 3,
+   "message": "Check that status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.",
+   "context": null,
+   "selector": "",
+   "runner": "htmlcs",
+   "runnerExtras": {}
+  }
+ ]
+}

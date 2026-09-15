@@ -1,0 +1,62 @@
+{
+ "bold_home": {
+  "url": "https://bold.bridge.ufsc.br/pt/",
+  "system": "bold"
+ },
+ "bold_alert": {
+  "url": "https://bold.bridge.ufsc.br/pt/components/alert/",
+  "system": "bold"
+ },
+ "bold_button": {
+  "url": "https://bold.bridge.ufsc.br/pt/components/button/",
+  "system": "bold"
+ },
+ "bold_checkbox": {
+  "url": "https://bold.bridge.ufsc.br/pt/components/checkbox/",
+  "system": "bold"
+ },
+ "bold_form": {
+  "url": "https://bold.bridge.ufsc.br/pt/components/form/",
+  "system": "bold"
+ },
+ "bold_table": {
+  "url": "https://bold.bridge.ufsc.br/pt/components/table/",
+  "system": "bold"
+ },
+ "bold_a11y": {
+  "url": "https://bold.bridge.ufsc.br/pt/design-guidelines/accessibility",
+  "system": "bold"
+ },
+ "bold_getting_started": {
+  "url": "https://bold.bridge.ufsc.br/pt/getting-started/",
+  "system": "bold"
+ },
+ "dsgov_home": {
+  "url": "https://www.gov.br/ds/home",
+  "system": "dsgov"
+ },
+ "dsgov_a11y": {
+  "url": "https://www.gov.br/ds/acessibilidade",
+  "system": "dsgov"
+ },
+ "dsgov_button": {
+  "url": "https://www.gov.br/ds/components/button?tab=desenvolvedor",
+  "system": "dsgov"
+ },
+ "dsgov_input": {
+  "url": "https://www.gov.br/ds/components/input?tab=desenvolvedor",
+  "system": "dsgov"
+ },
+ "dsgov_menu": {
+  "url": "https://www.gov.br/ds/components/menu?tab=desenvolvedor",
+  "system": "dsgov"
+ },
+ "dsgov_message": {
+  "url": "https://www.gov.br/ds/components/message?tab=desenvolvedor",
+  "system": "dsgov"
+ },
+ "dsgov_table": {
+  "url": "https://www.gov.br/ds/components/table?tab=desenvolvedor",
+  "system": "dsgov"
+ }
+}

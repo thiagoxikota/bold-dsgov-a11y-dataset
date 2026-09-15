@@ -1,0 +1,19 @@
+{
+  "name": "concord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "accessibility-checker": "^4.0.34",
+    "axe-core": "^4.11.0",
+    "lighthouse": "^12.8.2",
+    "pa11y": "^8.0.0",
+    "puppeteer": "^24.43.1"
+  }
+}
