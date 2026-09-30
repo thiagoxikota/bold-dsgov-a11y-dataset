@@ -2,7 +2,7 @@
 
 Relatórios brutos e scripts de análise da auditoria de acessibilidade digital de dois design systems institucionais brasileiros: Bold (Laboratório Bridge, UFSC) e Padrão Digital de Governo (DSGov, gov.br). Auditoria realizada em novembro de 2025 sobre a documentação pública então vigente de cada sistema.
 
-Este repositório dá lastro de reprodutibilidade ao trabalho de origem e aos artigos derivados. Número-âncora do estudo: 277 não conformidades únicas de nível AA (75 no Bold, 202 no DSGov), obtidas após deduplicação (regra + seletor CSS + contexto do componente) e filtro de escopo que remove ocorrências de nível AAA.
+Este repositório dá lastro de reprodutibilidade ao trabalho de origem e aos artigos derivados. Número-âncora do estudo: 277 registros (75 no Bold, 202 no DSGov), obtidos após deduplicação por regra e primeiro seletor CSS (`scripts/process_data.py`) e filtro de escopo que remove a regra `color-contrast-enhanced`, associada ao nível AAA. É um recorte operacional histórico de pares regra e seletor, não uma avaliação estrita de conformidade WCAG 2.1 AA: o conjunto inclui regras de boas práticas e `target-size` (WCAG 2.2), como o artigo derivado do WFA 2026 declara.
 
 ## Estrutura
 
@@ -81,7 +81,7 @@ BibTeX:
 
 Ver também `CITATION.cff`.
 
-Trabalho derivado aprovado na lista oficial do Fórum BrasilGov Academy (BrasilGov Summit 2026, Florianópolis): 'Inclusão por Padrão: Auditoria Comparativa de Acessibilidade entre Implementações Bold e DSGov em Portais Públicos' (Thiago Kenji Corrêa Xikota, UFSC). O fórum não publica anais; não há DOI nem link estável para o trabalho derivado.
+Trabalho derivado aprovado na lista oficial do Fórum BrasilGov Academy (BrasilGov Summit 2026, Florianópolis): 'Inclusão por Padrão: Auditoria Comparativa de Acessibilidade entre Implementações Bold e DSGov em Portais Públicos' (Thiago Kenji Corrêa Xikota, UFSC). O trabalho completo consta dos Anais do I Fórum BrasilGov Academy (2026, p. 146-158), publicação sem ISBN, ISSN ou DOI; não há link estável.
 
 ## Licença
 
