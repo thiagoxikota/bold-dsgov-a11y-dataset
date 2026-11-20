@@ -15,7 +15,7 @@ Este repositório dá lastro de reprodutibilidade ao trabalho de origem e aos ar
 | `scripts/concordancia-2026/` | Coletor de quatro verificadores (`collect.mjs`, Node 22, versões pinadas em `package.json`) e análise de concordância (`analyze.py`) usados em `data/concordancia-2026-09/` |
 | `scripts/reaudit-2026/` | Harness da reauditoria (Playwright + axe-core pinados) com instruções de reprodução |
 | `data/concordancia-2026-09/` | Coleta de 14/09/2026: as mesmas 15 páginas passadas por axe-core 4.11.0, Lighthouse 12.8.2, IBM Equal Access 4.0.34 e HTML_CodeSniffer 2.5.1 (pa11y 8.0.0), com métricas de concordância entre ferramentas (Jaccard, kappa de Cohen e de Fleiss) sobre pares (página, critério WCAG 2.1 A/AA). Base do artigo de concordância entre verificadores (relatório no README da pasta) |
-| `data/piloto-2026-07/` | Piloto de 30/07/2026: correção experimental em fork do código de exemplo do Menu Push (DSGov). Antes: 22 nós de violação de estrutura ARIA; depois: 0, na mesma auditoria pinada. Correção em fork, não incorporada pelo mantenedor (relatório no README da pasta) |
+| `data/piloto-2026-07/` | Piloto de 30/07/2026: correção experimental em fork do código de exemplo do Menu Push (DSGov). Antes: 22 nós de violação de estrutura ARIA; depois: 0, na mesma auditoria pinada. Correção do piloto em fork (relatório no README da pasta). Em 13/10/2026, o mantenedor corrigiu o mesmo problema no código oficial ([merge request 221 do govbr-ds-core](https://gitlab.com/govbr-ds/bibliotecas/javascript/govbr-ds-core/-/merge_requests/221)); até 20/11/2026, nenhuma versão publicada do `@govbr-ds/core` traz essa correção |
 | `scripts/piloto-2026/` | Script de auditoria antes/depois do fork do piloto |
 
 ## Dicionário de dados (`data/evidencias-componentes/`)
