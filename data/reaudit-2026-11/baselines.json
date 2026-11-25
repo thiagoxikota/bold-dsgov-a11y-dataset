@@ -1,0 +1,377 @@
+{
+ "sondas": {
+  "bold_alert": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/alert/",
+   "timestamp": "2025-11-05T04:20:32.130Z",
+   "axe": "4.11.0",
+   "byId": {
+    "color-contrast": 4
+   },
+   "byImpact": {
+    "serious": 4
+   },
+   "total": 4,
+   "incomplete": {
+    "color-contrast": 4
+   }
+  },
+  "bold_button": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/button/",
+   "timestamp": "2025-11-05T04:20:22.349Z",
+   "axe": "4.11.0",
+   "byId": {
+    "color-contrast": 5
+   },
+   "byImpact": {
+    "serious": 5
+   },
+   "total": 5,
+   "incomplete": {
+    "color-contrast": 14
+   }
+  },
+  "bold_form": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/form/",
+   "timestamp": "2025-11-05T04:20:42.191Z",
+   "axe": "4.11.0",
+   "byId": {
+    "color-contrast": 10
+   },
+   "byImpact": {
+    "serious": 10
+   },
+   "total": 10,
+   "incomplete": {
+    "color-contrast": 2
+   }
+  },
+  "bold_table": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/table/",
+   "timestamp": "2025-11-05T04:20:27.654Z",
+   "axe": "4.11.0",
+   "byId": {
+    "button-name": 19,
+    "color-contrast": 5
+   },
+   "byImpact": {
+    "critical": 19,
+    "serious": 5
+   },
+   "total": 24,
+   "incomplete": {}
+  },
+  "dsgov_button": {
+   "url": "https://www.gov.br/ds/components/button?tab=desenvolvedor",
+   "timestamp": "2025-11-05T04:20:51.362Z",
+   "axe": "4.11.0",
+   "byId": {
+    "aria-allowed-attr": 1,
+    "aria-required-children": 2,
+    "aria-required-parent": 37,
+    "color-contrast": 15,
+    "link-in-text-block": 2,
+    "listitem": 37
+   },
+   "byImpact": {
+    "critical": 40,
+    "serious": 54
+   },
+   "total": 94,
+   "incomplete": {
+    "color-contrast": 200,
+    "frame-title-unique": 3
+   }
+  },
+  "dsgov_input": {
+   "url": "https://www.gov.br/ds/components/input?tab=desenvolvedor",
+   "timestamp": "2025-11-05T04:21:09.876Z",
+   "axe": "4.11.0",
+   "byId": {
+    "aria-allowed-attr": 1,
+    "aria-required-children": 2,
+    "aria-required-parent": 37,
+    "color-contrast": 26,
+    "link-in-text-block": 2,
+    "listitem": 37
+   },
+   "byImpact": {
+    "critical": 40,
+    "serious": 65
+   },
+   "total": 105,
+   "incomplete": {
+    "color-contrast": 248
+   }
+  },
+  "dsgov_message": {
+   "url": "https://www.gov.br/ds/components/message?tab=desenvolvedor",
+   "timestamp": "2025-11-05T04:21:04.161Z",
+   "axe": "4.11.0",
+   "byId": {
+    "aria-allowed-attr": 1,
+    "aria-required-children": 2,
+    "aria-required-parent": 37,
+    "color-contrast": 28,
+    "link-in-text-block": 2,
+    "listitem": 37
+   },
+   "byImpact": {
+    "critical": 40,
+    "serious": 67
+   },
+   "total": 107,
+   "incomplete": {
+    "color-contrast": 171
+   }
+  },
+  "dsgov_table": {
+   "url": "https://www.gov.br/ds/components/table?tab=desenvolvedor",
+   "timestamp": "2025-11-05T04:20:59.212Z",
+   "axe": "4.11.0",
+   "byId": {
+    "aria-allowed-attr": 1,
+    "aria-required-children": 2,
+    "aria-required-parent": 37,
+    "color-contrast": 23,
+    "link-in-text-block": 2,
+    "listitem": 37
+   },
+   "byImpact": {
+    "critical": 40,
+    "serious": 62
+   },
+   "total": 102,
+   "incomplete": {
+    "color-contrast": 212
+   }
+  }
+ },
+ "devtools": {
+  "bold": {
+   "root_url": "https://bold.bridge.ufsc.br/pt/",
+   "axe": "4.10.3",
+   "dates": [
+    "2025-11-08T17:42:50.301Z",
+    "2025-11-08T17:45:03.688Z"
+   ],
+   "issueSummary": {
+    "critical": 4,
+    "minor": 0,
+    "moderate": 9,
+    "serious": 67,
+    "needsReview": 0,
+    "bestPractices": 0
+   },
+   "total_all": 80,
+   "total_aa": 33,
+   "pages": {
+    "https://bold.bridge.ufsc.br/pt/": {
+     "all": {
+      "color-contrast-enhanced": 1,
+      "landmark-one-main": 1,
+      "region": 8
+     },
+     "aa": {
+      "landmark-one-main": 1,
+      "region": 8
+     }
+    },
+    "https://bold.bridge.ufsc.br/pt/design-guidelines/accessibility": {
+     "all": {
+      "color-contrast-enhanced": 9
+     },
+     "aa": {}
+    },
+    "https://bold.bridge.ufsc.br/pt/components/button": {
+     "all": {
+      "color-contrast-enhanced": 16,
+      "color-contrast": 5
+     },
+     "aa": {
+      "color-contrast": 5
+     }
+    },
+    "https://bold.bridge.ufsc.br/pt/components/checkbox": {
+     "all": {
+      "color-contrast-enhanced": 1
+     },
+     "aa": {}
+    },
+    "https://bold.bridge.ufsc.br/pt/components/form": {
+     "all": {
+      "color-contrast-enhanced": 14,
+      "color-contrast": 10,
+      "scrollable-region-focusable": 1,
+      "button-name": 2,
+      "image-alt": 2
+     },
+     "aa": {
+      "color-contrast": 10,
+      "scrollable-region-focusable": 1,
+      "button-name": 2,
+      "image-alt": 2
+     }
+    },
+    "https://bold.bridge.ufsc.br/pt/components/alert": {
+     "all": {
+      "color-contrast-enhanced": 6,
+      "color-contrast": 4
+     },
+     "aa": {
+      "color-contrast": 4
+     }
+    }
+   }
+  },
+  "dsgov": {
+   "root_url": "https://www.gov.br/ds/home",
+   "axe": "4.10.3",
+   "dates": [
+    "2025-11-08T17:38:27.409Z",
+    "2025-11-08T17:41:39.272Z"
+   ],
+   "issueSummary": {
+    "critical": 202,
+    "minor": 12,
+    "moderate": 4,
+    "serious": 527,
+    "needsReview": 0,
+    "bestPractices": 0
+   },
+   "total_all": 745,
+   "total_aa": 563,
+   "pages": {
+    "https://www.gov.br/ds/home": {
+     "all": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 1,
+      "color-contrast-enhanced": 1,
+      "link-in-text-block": 2
+     },
+     "aa": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 1,
+      "link-in-text-block": 2
+     }
+    },
+    "https://www.gov.br/ds/acessibilidade": {
+     "all": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 2,
+      "link-in-text-block": 2,
+      "aria-required-parent": 37,
+      "color-contrast-enhanced": 37,
+      "listitem": 37
+     },
+     "aa": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 2,
+      "link-in-text-block": 2,
+      "aria-required-parent": 37,
+      "listitem": 37
+     }
+    },
+    "https://www.gov.br/ds/components/button?tab=desenvolvedor": {
+     "all": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast-enhanced": 36,
+      "color-contrast": 15,
+      "landmark-unique": 1,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "aa": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 15,
+      "landmark-unique": 1,
+      "link-in-text-block": 2,
+      "listitem": 37
+     }
+    },
+    "https://www.gov.br/ds/components/input?tab=desenvolvedor": {
+     "all": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast-enhanced": 36,
+      "color-contrast": 23,
+      "landmark-unique": 1,
+      "link-in-text-block": 2,
+      "listitem": 37,
+      "target-size": 2
+     },
+     "aa": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 23,
+      "landmark-unique": 1,
+      "link-in-text-block": 2,
+      "listitem": 37,
+      "target-size": 2
+     }
+    },
+    "https://www.gov.br/ds/components/menu?tab=desenvolvedor": {
+     "all": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast-enhanced": 36,
+      "color-contrast": 80,
+      "landmark-unique": 1,
+      "link-in-text-block": 2,
+      "listitem": 37,
+      "target-size": 1
+     },
+     "aa": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 80,
+      "landmark-unique": 1,
+      "link-in-text-block": 2,
+      "listitem": 37,
+      "target-size": 1
+     }
+    },
+    "https://www.gov.br/ds/components/message?tab=desenvolvedor": {
+     "all": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast-enhanced": 36,
+      "color-contrast": 27,
+      "landmark-unique": 1,
+      "link-in-text-block": 2,
+      "listitem": 37
+     },
+     "aa": {
+      "aria-allowed-attr": 1,
+      "aria-allowed-role": 2,
+      "aria-required-children": 2,
+      "aria-required-parent": 37,
+      "color-contrast": 27,
+      "landmark-unique": 1,
+      "link-in-text-block": 2,
+      "listitem": 37
+     }
+    }
+   }
+  }
+ }
+}

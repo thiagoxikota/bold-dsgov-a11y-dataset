@@ -1,0 +1,493 @@
+{
+ "sonda": {
+  "bold_alert": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/alert/",
+   "rules": {
+    "color-contrast": {
+     "nov2025": 4,
+     "reaudit": 4
+    }
+   },
+   "changed": {}
+  },
+  "bold_button": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/button/",
+   "rules": {
+    "color-contrast": {
+     "nov2025": 5,
+     "reaudit": 5
+    }
+   },
+   "changed": {}
+  },
+  "bold_form": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/form/",
+   "rules": {
+    "color-contrast": {
+     "nov2025": 10,
+     "reaudit": 10
+    }
+   },
+   "changed": {}
+  },
+  "bold_table": {
+   "url": "https://bold.bridge.ufsc.br/pt/components/table/",
+   "rules": {
+    "button-name": {
+     "nov2025": 19,
+     "reaudit": 19
+    },
+    "color-contrast": {
+     "nov2025": 5,
+     "reaudit": 5
+    }
+   },
+   "changed": {}
+  },
+  "dsgov_button": {
+   "url": "https://www.gov.br/ds/components/button?tab=desenvolvedor",
+   "rules": {
+    "aria-allowed-attr": {
+     "nov2025": 1,
+     "reaudit": 1
+    },
+    "aria-required-children": {
+     "nov2025": 2,
+     "reaudit": 2
+    },
+    "aria-required-parent": {
+     "nov2025": 37,
+     "reaudit": 37
+    },
+    "color-contrast": {
+     "nov2025": 15,
+     "reaudit": 15
+    },
+    "link-in-text-block": {
+     "nov2025": 2,
+     "reaudit": 2
+    },
+    "listitem": {
+     "nov2025": 37,
+     "reaudit": 37
+    }
+   },
+   "changed": {}
+  },
+  "dsgov_input": {
+   "url": "https://www.gov.br/ds/components/input?tab=desenvolvedor",
+   "rules": {
+    "aria-allowed-attr": {
+     "nov2025": 1,
+     "reaudit": 1
+    },
+    "aria-required-children": {
+     "nov2025": 2,
+     "reaudit": 2
+    },
+    "aria-required-parent": {
+     "nov2025": 37,
+     "reaudit": 37
+    },
+    "color-contrast": {
+     "nov2025": 26,
+     "reaudit": 26
+    },
+    "link-in-text-block": {
+     "nov2025": 2,
+     "reaudit": 2
+    },
+    "listitem": {
+     "nov2025": 37,
+     "reaudit": 37
+    }
+   },
+   "changed": {}
+  },
+  "dsgov_message": {
+   "url": "https://www.gov.br/ds/components/message?tab=desenvolvedor",
+   "rules": {
+    "aria-allowed-attr": {
+     "nov2025": 1,
+     "reaudit": 1
+    },
+    "aria-required-children": {
+     "nov2025": 2,
+     "reaudit": 2
+    },
+    "aria-required-parent": {
+     "nov2025": 37,
+     "reaudit": 37
+    },
+    "color-contrast": {
+     "nov2025": 28,
+     "reaudit": 28
+    },
+    "link-in-text-block": {
+     "nov2025": 2,
+     "reaudit": 2
+    },
+    "listitem": {
+     "nov2025": 37,
+     "reaudit": 37
+    }
+   },
+   "changed": {}
+  },
+  "dsgov_table": {
+   "url": "https://www.gov.br/ds/components/table?tab=desenvolvedor",
+   "rules": {
+    "aria-allowed-attr": {
+     "nov2025": 1,
+     "reaudit": 1
+    },
+    "aria-required-children": {
+     "nov2025": 2,
+     "reaudit": 2
+    },
+    "aria-required-parent": {
+     "nov2025": 37,
+     "reaudit": 37
+    },
+    "color-contrast": {
+     "nov2025": 23,
+     "reaudit": 23
+    },
+    "link-in-text-block": {
+     "nov2025": 2,
+     "reaudit": 2
+    },
+    "listitem": {
+     "nov2025": 37,
+     "reaudit": 37
+    }
+   },
+   "changed": {}
+  }
+ },
+ "devtools_auto": {
+  "bold": {
+   "https://bold.bridge.ufsc.br/pt/": {
+    "landmark-one-main": {
+     "nov2025": 1,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "region": {
+     "nov2025": 8,
+     "reaudit": 0,
+     "class": "config_excluded"
+    }
+   },
+   "https://bold.bridge.ufsc.br/pt/design-guidelines/accessibility": {},
+   "https://bold.bridge.ufsc.br/pt/components/button": {
+    "color-contrast": {
+     "nov2025": 5,
+     "reaudit": 5,
+     "class": "match"
+    }
+   },
+   "https://bold.bridge.ufsc.br/pt/components/checkbox": {},
+   "https://bold.bridge.ufsc.br/pt/components/form": {
+    "button-name": {
+     "nov2025": 2,
+     "reaudit": 0,
+     "class": "diff"
+    },
+    "color-contrast": {
+     "nov2025": 10,
+     "reaudit": 10,
+     "class": "match"
+    },
+    "image-alt": {
+     "nov2025": 2,
+     "reaudit": 0,
+     "class": "diff"
+    },
+    "scrollable-region-focusable": {
+     "nov2025": 1,
+     "reaudit": 0,
+     "class": "diff"
+    }
+   },
+   "https://bold.bridge.ufsc.br/pt/components/alert": {
+    "color-contrast": {
+     "nov2025": 4,
+     "reaudit": 4,
+     "class": "match"
+    }
+   }
+  },
+  "dsgov": {
+   "https://www.gov.br/ds/home": {
+    "aria-allowed-attr": {
+     "nov2025": 1,
+     "reaudit": 1,
+     "class": "match"
+    },
+    "aria-allowed-role": {
+     "nov2025": 2,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "aria-required-children": {
+     "nov2025": 1,
+     "reaudit": 1,
+     "class": "match"
+    },
+    "link-in-text-block": {
+     "nov2025": 2,
+     "reaudit": 2,
+     "class": "match"
+    }
+   },
+   "https://www.gov.br/ds/acessibilidade": {
+    "aria-allowed-attr": {
+     "nov2025": 1,
+     "reaudit": 1,
+     "class": "match"
+    },
+    "aria-allowed-role": {
+     "nov2025": 2,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "aria-required-children": {
+     "nov2025": 2,
+     "reaudit": 1,
+     "class": "diff"
+    },
+    "aria-required-parent": {
+     "nov2025": 37,
+     "reaudit": 0,
+     "class": "diff"
+    },
+    "link-in-text-block": {
+     "nov2025": 2,
+     "reaudit": 2,
+     "class": "match"
+    },
+    "listitem": {
+     "nov2025": 37,
+     "reaudit": 0,
+     "class": "diff"
+    }
+   },
+   "https://www.gov.br/ds/components/button?tab=desenvolvedor": {
+    "aria-allowed-attr": {
+     "nov2025": 1,
+     "reaudit": 1,
+     "class": "match"
+    },
+    "aria-allowed-role": {
+     "nov2025": 2,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "aria-required-children": {
+     "nov2025": 2,
+     "reaudit": 2,
+     "class": "match"
+    },
+    "aria-required-parent": {
+     "nov2025": 37,
+     "reaudit": 37,
+     "class": "match"
+    },
+    "color-contrast": {
+     "nov2025": 15,
+     "reaudit": 15,
+     "class": "match"
+    },
+    "landmark-unique": {
+     "nov2025": 1,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "link-in-text-block": {
+     "nov2025": 2,
+     "reaudit": 2,
+     "class": "match"
+    },
+    "listitem": {
+     "nov2025": 37,
+     "reaudit": 37,
+     "class": "match"
+    }
+   },
+   "https://www.gov.br/ds/components/input?tab=desenvolvedor": {
+    "aria-allowed-attr": {
+     "nov2025": 1,
+     "reaudit": 1,
+     "class": "match"
+    },
+    "aria-allowed-role": {
+     "nov2025": 2,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "aria-required-children": {
+     "nov2025": 2,
+     "reaudit": 2,
+     "class": "match"
+    },
+    "aria-required-parent": {
+     "nov2025": 37,
+     "reaudit": 37,
+     "class": "match"
+    },
+    "color-contrast": {
+     "nov2025": 23,
+     "reaudit": 26,
+     "class": "diff"
+    },
+    "landmark-unique": {
+     "nov2025": 1,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "link-in-text-block": {
+     "nov2025": 2,
+     "reaudit": 2,
+     "class": "match"
+    },
+    "listitem": {
+     "nov2025": 37,
+     "reaudit": 37,
+     "class": "match"
+    },
+    "target-size": {
+     "nov2025": 2,
+     "reaudit": 0,
+     "class": "config_excluded"
+    }
+   },
+   "https://www.gov.br/ds/components/menu?tab=desenvolvedor": {
+    "aria-allowed-attr": {
+     "nov2025": 1,
+     "reaudit": 1,
+     "class": "match"
+    },
+    "aria-allowed-role": {
+     "nov2025": 2,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "aria-required-children": {
+     "nov2025": 2,
+     "reaudit": 2,
+     "class": "match"
+    },
+    "aria-required-parent": {
+     "nov2025": 37,
+     "reaudit": 37,
+     "class": "match"
+    },
+    "color-contrast": {
+     "nov2025": 80,
+     "reaudit": 80,
+     "class": "match"
+    },
+    "landmark-unique": {
+     "nov2025": 1,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "link-in-text-block": {
+     "nov2025": 2,
+     "reaudit": 2,
+     "class": "match"
+    },
+    "listitem": {
+     "nov2025": 37,
+     "reaudit": 37,
+     "class": "match"
+    },
+    "target-size": {
+     "nov2025": 1,
+     "reaudit": 0,
+     "class": "config_excluded"
+    }
+   },
+   "https://www.gov.br/ds/components/message?tab=desenvolvedor": {
+    "aria-allowed-attr": {
+     "nov2025": 1,
+     "reaudit": 1,
+     "class": "match"
+    },
+    "aria-allowed-role": {
+     "nov2025": 2,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "aria-required-children": {
+     "nov2025": 2,
+     "reaudit": 2,
+     "class": "match"
+    },
+    "aria-required-parent": {
+     "nov2025": 37,
+     "reaudit": 37,
+     "class": "match"
+    },
+    "color-contrast": {
+     "nov2025": 27,
+     "reaudit": 28,
+     "class": "diff"
+    },
+    "landmark-unique": {
+     "nov2025": 1,
+     "reaudit": 0,
+     "class": "config_excluded"
+    },
+    "link-in-text-block": {
+     "nov2025": 2,
+     "reaudit": 2,
+     "class": "match"
+    },
+    "listitem": {
+     "nov2025": 37,
+     "reaudit": 37,
+     "class": "match"
+    }
+   }
+  }
+ },
+ "supplement": {
+  "bold_form": {},
+  "bold_getting_started": {},
+  "bold_home": {
+   "landmark-one-main": 1,
+   "region": 8
+  },
+  "dsgov_a11y": {
+   "aria-allowed-role": 2
+  },
+  "dsgov_button": {
+   "aria-allowed-role": 2,
+   "landmark-unique": 1
+  },
+  "dsgov_home": {
+   "aria-allowed-role": 2
+  },
+  "dsgov_input": {
+   "aria-allowed-role": 2,
+   "landmark-unique": 1,
+   "target-size": 2
+  },
+  "dsgov_menu": {
+   "aria-allowed-role": 2,
+   "landmark-unique": 1
+  },
+  "dsgov_message": {
+   "aria-allowed-role": 2,
+   "landmark-unique": 1
+  }
+ },
+ "totals": {
+  "sonda_paginas": 8,
+  "sonda_sem_diff": true,
+  "sonda_nov2025_nos": 451,
+  "sonda_reaudit_nos": 451
+ }
+}
