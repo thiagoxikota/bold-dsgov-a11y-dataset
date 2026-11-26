@@ -65,7 +65,7 @@ Os dois scripts leem os exports em `data/axe/` por caminho relativo ao repositó
 
 Trabalho de origem (fonte-mãe do dataset):
 
-XIKOTA, Thiago Kenji Corrêa. Acessibilidade digital em design systems públicos: uma auditoria de conformidade do Bold e DSGov. Trabalho de Conclusão de Curso (Bacharelado em Ciências da Computação), INE/CTC, Universidade Federal de Santa Catarina, Florianópolis, 2025. Repositório institucional UFSC: handle 123456789/270866. Zenodo: DOI 10.5281/zenodo.17740734.
+XIKOTA, Thiago Kenji Corrêa. Acessibilidade digital em design systems públicos: uma auditoria de conformidade do Bold e DSGov. Trabalho de Conclusão de Curso (Bacharelado em Ciências da Computação), INE/CTC, Universidade Federal de Santa Catarina, Florianópolis, 2025. Repositório institucional UFSC: handle 123456789/270866. Dados brutos de 2025 (exports do Axe DevTools e do Lighthouse) no Zenodo: DOI 10.5281/zenodo.17740734; o registro do Zenodo usa um título de trabalho anterior e não contém a monografia.
 
 BibTeX:
 
@@ -75,8 +75,16 @@ BibTeX:
   title  = {Acessibilidade digital em design systems p{\'u}blicos: uma auditoria de conformidade do Bold e DSGov},
   year   = {2025},
   note   = {Trabalho de Conclus{\~a}o de Curso (Bacharelado em Ci{\^e}ncias da Computa{\c c}{\~a}o), INE/CTC/UFSC},
-  doi    = {10.5281/zenodo.17740734},
   url    = {https://repositorio.ufsc.br/handle/123456789/270866}
+}
+
+@misc{xikota2025dadosbrutos,
+  author    = {Xikota, Thiago Kenji Corr{\^e}a},
+  title     = {An{\'a}lise comparativa da acessibilidade digital em design systems: estudo de caso do Bold e do Padr{\~a}o Digital de Governo (DSGov)},
+  year      = {2025},
+  publisher = {Zenodo},
+  note      = {Dados brutos de 2025: exports do Axe DevTools e do Lighthouse},
+  doi       = {10.5281/zenodo.17740734}
 }
 ```
 

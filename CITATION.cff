@@ -13,6 +13,10 @@ authors:
 date-released: "2026-07-08"
 license: CC-BY-4.0
 repository-code: "https://github.com/thiagoxikota/bold-dsgov-a11y-dataset"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17740734"
+    description: "Dados brutos de 2025 (exports do Axe DevTools e do Lighthouse) no Zenodo; nao contem a monografia"
 preferred-citation:
   type: thesis
   title: "Acessibilidade digital em design systems publicos: uma auditoria de conformidade do Bold e DSGov"
@@ -22,5 +26,4 @@ preferred-citation:
   year: 2025
   institution:
     name: "Universidade Federal de Santa Catarina, INE/CTC"
-  doi: "10.5281/zenodo.17740734"
   url: "https://repositorio.ufsc.br/handle/123456789/270866"
